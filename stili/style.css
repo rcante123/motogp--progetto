@@ -1,0 +1,7 @@
+*{box-sizing: border-box; }
+
+body{margin: 0;}
+
+.header{ display: flex;flex-wrap: wrap;height: 80px; background: black; width: 100%;}
+.header__logo{height: 100%; padding: 15px;} 
+.header img{height: 100%;}
