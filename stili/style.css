@@ -9,19 +9,37 @@ body{margin: auto;}
 .header__nav{
     display: flex; 
     justify-content: space-around;
-    align-items: center;
-    height: 100%;
-    width: 60%
     
-    
-   
+    height: 200px;
+    width: 65%
 }
 
 .header__nav__tendina{
-    color: white; 
-    font-size: 22px; 
+    color: rgb(171,24,59); 
+    font-size: 18px; 
     width: 20%;
     text-align: center;
     font-family: "Arial";
+    height: 200px;
 }
+
+
+
+
+.header__nav__tendina__menu{height: 100px; line-height: 100px; padding: 0 20px; }
+.header__nav__tendina__menu:hover { color: rgb(238, 48, 48); background: rgb(20, 20, 20); }
+
+
+
+.header__nav__tendina__dropdown{height: 150px; background: black; display: block; }
+.header a {text-decoration: none; color: white;}
+.header__nav__tendina__dropdown__content{height: 50px; line-height: 50px;}
+
+
+.contenitore-main{ display: flex;justify-content: space-between; }
+.contenitore-main_aside{background: rgb(184, 6, 35); width: 180px; }
+.contenitore-main_img{text-align: center; }
+
+
+.footer{height: 50px; background: black; color: white; line-height: 50px; text-align: center; }
 
