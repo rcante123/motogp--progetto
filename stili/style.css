@@ -2,25 +2,18 @@
 
 body{margin: auto;}
 
-
-
-/*HEADER BARRA*/
 .header{display: flex; justify-content: space-between;height: 100px; background: black; width: 100%; padding: 0 15px;}
-
 .header__logo{height: 100%; padding: 10px; text-align: center;} 
-
 .header img{height: 100%;}
 
 .header__nav{
     display: flex; 
-    justify-content: space-around;  
+    justify-content: space-around;
+    
     height: 200px;
     width: 65%
 }
 
-
-
-/*HEADER TENDINA*/
 .header__nav__tendina{
     color: rgb(171,24,59); 
     font-size: 18px; 
@@ -31,30 +24,22 @@ body{margin: auto;}
     position:relative;
 }
 
-.header__nav__tendina__menu{height: 100px; line-height: 100px; padding: 0 20px;}
 
+
+.header__nav__tendina__menu1{height: 100px; line-height: 100px; padding: 0 20px; }
 .header__nav__tendina__menu:hover{color: rgb(238, 48, 48); background: rgb(20, 20, 20);}
 
-.header__nav__tendina__dropdown{height: 150px; background: black; display: block; position: absolute; bottom: 0; left: 0; right: 0;}
 
+
+.header__nav__tendina__dropdown{height: 150px; background: black; display: none; position: absolute; bottom: 0; left: 0; right: 0;}
 .header a{text-decoration: none; color: white;}
-
 .header__nav__tendina__dropdown__content{height: 50px; line-height: 50px;}
 
-.header__nav__tendina__menu:hover .footer{background: red;}
 
 
-
-/*MAIN PRINCIPALE*/
 .contenitore-main{height: 750px; display: flex;justify-content: space-between;}
-
-
-
-/*MAIN LATERALE*/
 .contenitore-main_aside{background: rgb(184, 6, 35); width: 180px;}
 
 
-
-/*FOOTER*/
 .footer{height: 50px; background: black; color: white; line-height: 50px; text-align: center;}
 
