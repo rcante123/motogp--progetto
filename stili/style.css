@@ -20,22 +20,24 @@ body{margin: auto;}
     width: 20%;
     text-align: center;
     font-family: "Arial";
-    height: 200px;
+    height: 250px;
+    position:relative;
 }
 
 
 
-.header__nav__tendina__menu{height: 100px; line-height: 100px; padding: 0 20px;}
+.header__nav__tendina__menu{height: 100px; line-height: 100px; padding: 0 20px; }
 .header__nav__tendina__menu:hover{color: rgb(238, 48, 48); background: rgb(20, 20, 20);}
 
 
 
-.header__nav__tendina__dropdown{height: 150px; background: black; display: block;}
+.header__nav__tendina__dropdown{height: 150px; background: black; display: block; position: absolute; bottom: 0; left: 0; right: 0;}
 .header a{text-decoration: none; color: white;}
 .header__nav__tendina__dropdown__content{height: 50px; line-height: 50px;}
+.header__nav__tendina__menu:hover .footer{background: red;}
 
 
-.contenitore-main{height: 1000px; display: flex;justify-content: space-between;}
+.contenitore-main{height: 750px; display: flex;justify-content: space-between;}
 .contenitore-main_aside{background: rgb(184, 6, 35); width: 180px;}
 
 
