@@ -1,9 +1,9 @@
-*{box-sizing: border-box; }
+*{box-sizing: border-box;}
 
 body{margin: auto;}
 
-.header{ display: flex; justify-content: space-between;height: 100px; background: black; width: 100%; padding: 0 15px;}
-.header__logo{height: 100%; padding: 10px; text-align: center; } 
+.header{display: flex; justify-content: space-between;height: 100px; background: black; width: 100%; padding: 0 15px;}
+.header__logo{height: 100%; padding: 10px; text-align: center;} 
 .header img{height: 100%;}
 
 .header__nav{
@@ -25,21 +25,19 @@ body{margin: auto;}
 
 
 
-
-.header__nav__tendina__menu{height: 100px; line-height: 100px; padding: 0 20px; }
-.header__nav__tendina__menu:hover { color: rgb(238, 48, 48); background: rgb(20, 20, 20); }
-
+.header__nav__tendina__menu{height: 100px; line-height: 100px; padding: 0 20px;}
+.header__nav__tendina__menu:hover{color: rgb(238, 48, 48); background: rgb(20, 20, 20);}
 
 
-.header__nav__tendina__dropdown{height: 150px; background: black; display: block; }
-.header a {text-decoration: none; color: white;}
+
+.header__nav__tendina__dropdown{height: 150px; background: black; display: block;}
+.header a{text-decoration: none; color: white;}
 .header__nav__tendina__dropdown__content{height: 50px; line-height: 50px;}
 
 
-.contenitore-main{ display: flex;justify-content: space-between; }
-.contenitore-main_aside{background: rgb(184, 6, 35); width: 180px; }
-.contenitore-main_img{text-align: center; }
+.contenitore-main{height: 1000px; display: flex;justify-content: space-between;}
+.contenitore-main_aside{background: rgb(184, 6, 35); width: 180px;}
 
 
-.footer{height: 50px; background: black; color: white; line-height: 50px; text-align: center; }
+.footer{height: 50px; background: black; color: white; line-height: 50px; text-align: center;}
 
