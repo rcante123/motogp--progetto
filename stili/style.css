@@ -2,9 +2,14 @@
 
 body{margin: auto;}
 
-.header{display: flex; justify-content: space-between;height: 100px; background: black; width: 100%; padding: 0 15px;}
+
+
+
+.header{display: flex; justify-content: space-between;height: 100px; background: black; width: 100%; padding: 0 5px;}
 .header__logo{height: 100%; padding: 10px; text-align: center;} 
 .header img{height: 100%;}
+.header a{text-decoration: none;}
+
 
 .header__nav{
     display: flex; 
@@ -16,30 +21,46 @@ body{margin: auto;}
 
 .header__nav__tendina{
     color: rgb(171,24,59); 
-    font-size: 18px; 
+    font-size: 20px; 
     width: 20%;
     text-align: center;
     font-family: "Arial";
-    height: 250px;
+    height: 100px;
     position:relative;
 }
+.header__nav__tendina:hover {height: 235px;}
 
 
 
-.header__nav__tendina__menu1{height: 100px; line-height: 100px; padding: 0 20px; }
-.header__nav__tendina__menu:hover{color: rgb(238, 48, 48); background: rgb(20, 20, 20);}
+.header__nav__tendina__menu{height: 100%; line-height: 100px; padding: 0 20px; }
+
+.header__nav__tendina:hover .header__nav__tendina__menu{color: rgb(238, 48, 48); background: rgb(12, 12, 12);}
+.header__nav__tendina__menu {text-decoration: none; color: rgb(171,24,59);}
 
 
 
-.header__nav__tendina__dropdown{height: 150px; background: black; display: none; position: absolute; bottom: 0; left: 0; right: 0;}
-.header a{text-decoration: none; color: white;}
-.header__nav__tendina__dropdown__content{height: 50px; line-height: 50px;}
+.header__nav__tendina__dropdown{height: 135px; background: black; position: absolute; bottom: 0; left: 0; right: 0; display: none;}
+.header__nav__tendina:hover .header__nav__tendina__dropdown{display:block; background: rgb(12, 12, 12);}
+.header__nav__tendina__dropdown a { color: white;}
+
+
+.header__nav__tendina__dropdown__content{height: 45px; line-height: 45px; font-size: 15px;}
+.header__nav__tendina__dropdown__content:hover {color: rgb(238, 48, 48);}
+
+#header__nav__circuiti{height: 100px;}
 
 
 
-.contenitore-main{height: 750px; display: flex;justify-content: space-between;}
-.contenitore-main_aside{background: rgb(184, 6, 35); width: 180px;}
+
+.contenitore-main{ display: flex; min-height: 571px;}
+.contenitore-main__aside{background: rgb(184, 6, 35); width: 10%;  }
+
+#contenitore-main__aside-left{border-right:  4px solid black;}
+#contenitore-main__aside-right{border-left:  4px solid black;}
+
+.contenitore-main__img{text-align: center; width: 80%}
+.contenitore-main__pagina{width: 80%;}
 
 
-.footer{height: 50px; background: black; color: white; line-height: 50px; text-align: center;}
+.footer{height: 50px; background: black; color: white; line-height: 50px; text-align: center; width:100%;}
 
