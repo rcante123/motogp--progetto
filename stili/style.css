@@ -4,12 +4,15 @@ body{margin: auto;}
 
 
 
+/*HEADER BARRA*/
 
 .header{display: flex; justify-content: space-between;height: 100px; background: black; width: 100%; padding: 0 5px;}
-.header__logo{height: 100%; padding: 10px; text-align: center;} 
-.header img{height: 100%;}
-.header a{text-decoration: none;}
 
+.header__logo{height: 100%; padding: 10px; text-align: center;} 
+
+.header img{height: 100%;}
+
+.header a{text-decoration: none;}
 
 .header__nav{
     display: flex; 
@@ -18,6 +21,9 @@ body{margin: auto;}
     height: 200px;
     width: 65%
 }
+
+
+/*HEADER TENDINA*/
 
 .header__nav__tendina{
     color: rgb(171,24,59); 
@@ -28,39 +34,50 @@ body{margin: auto;}
     height: 100px;
     position:relative;
 }
+
 .header__nav__tendina:hover {height: 235px;}
-
-
 
 .header__nav__tendina__menu{height: 100%; line-height: 100px; padding: 0 20px; }
 
 .header__nav__tendina:hover .header__nav__tendina__menu{color: rgb(238, 48, 48); background: rgb(12, 12, 12);}
+
 .header__nav__tendina__menu {text-decoration: none; color: rgb(171,24,59);}
 
-
-
 .header__nav__tendina__dropdown{height: 135px; background: black; position: absolute; bottom: 0; left: 0; right: 0; display: none;}
-.header__nav__tendina:hover .header__nav__tendina__dropdown{display:block; background: rgb(12, 12, 12);}
-.header__nav__tendina__dropdown a { color: white;}
 
+.header__nav__tendina:hover .header__nav__tendina__dropdown{display:block; background: rgb(12, 12, 12);}
+
+.header__nav__tendina__dropdown a {color: white;}
 
 .header__nav__tendina__dropdown__content{height: 45px; line-height: 45px; font-size: 15px;}
+
 .header__nav__tendina__dropdown__content:hover {color: rgb(238, 48, 48);}
 
 #header__nav__circuiti{height: 100px;}
 
 
 
+/*MAIN CENTRALE*/
 
 .contenitore-main{ display: flex; min-height: 571px;}
-.contenitore-main__aside{background: rgb(184, 6, 35); width: 10%;  }
-
-#contenitore-main__aside-left{border-right:  4px solid black;}
-#contenitore-main__aside-right{border-left:  4px solid black;}
 
 .contenitore-main__img{text-align: center; width: 80%}
+
 .contenitore-main__pagina{width: 80%;}
 
+
+
+/*HEADER LATERALE*/
+
+.contenitore-main__aside{background: rgb(184, 6, 35); width: 10%;}
+
+#contenitore-main__aside-left{border-right:  4px solid black;}
+
+#contenitore-main__aside-right{border-left:  4px solid black;}
+
+
+
+/*FOOTER*/
 
 .footer{height: 50px; background: black; color: white; line-height: 50px; text-align: center; width:100%;}
 
