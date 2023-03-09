@@ -88,3 +88,20 @@ body{margin: auto;}
 
 } 
 
+/*PILOTI*/
+
+.pilota{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+
+.img_piloti{
+    width: 100px;
+    height: 75px;
+}
+
+.info_piloti{
+    width: 125px;
+}
+
