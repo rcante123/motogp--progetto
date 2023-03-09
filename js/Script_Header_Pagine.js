@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Motogp</title>
-    <link rel="stylesheet" href="./stili/style.css">
-</head>
-
-
-<body>
-
+document.write(`
     <header class="header">
 
-        <div class="logo" id="logo1">
-            <img src="./immagini/motogp_cmyk_tm.svg" alt="Logo">
+        <div class="logo" >
+            <img src="../.././immagini/motogp_cmyk_tm.svg" alt="Logo">
         </div>
            
         <div class="nav">
@@ -68,26 +56,10 @@
                     
         </div>
 
-        <div class="logo" id="logo2"> 
-            <img src="./immagini/fimlogo.png" alt="Logo">
+        <div class="logo"> 
+            <img src="../.././immagini/fimlogo.png" alt="Logo">
         </div>
         
         
     </header>
-
-    <main class="contenitore-main">
-
-        <aside class="contenitore-main__aside" id="contenitore-main__aside-left"> </aside>
-        <div class="contenitore-main__pagina"></div>
-        <!-- <div class="contenitore-main__img"><img src="./immagini/rossi46.jpeg" alt=""></div> -->
-        <aside class="contenitore-main__aside" id="contenitore-main__aside-right">.</aside>
-
-    </main>
-
-
-    <footer class="footer">
-        <div>Sito fatto da Ahmad e Riccardo</div>
-    </footer>
-
-</body>
-</html>
+    `)

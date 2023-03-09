@@ -18,7 +18,7 @@ body{margin: auto;}
     display: flex; 
     justify-content: space-around;
     
-    height: 200px;
+    height: 100px;
     width: 65%
 }
 
@@ -82,4 +82,9 @@ body{margin: auto;}
 .footer{height: 50px; background: black; color: white; line-height: 50px; text-align: center; width:100%;}
 
 
+@media (max-width: 1128px ){
+
+
+
+} 
 
