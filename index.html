@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Motogp</title>
     <link rel="stylesheet" href="./stili/style.css">
 </head>
@@ -14,14 +15,14 @@
     <header class="header">
 
         <div class="logo" id="logo1">
-            <img src="./immagini/motogp_cmyk_tm.svg" alt="Logo">
+            <a href="index.html"> <img src="./immagini/motogp_cmyk_tm.svg" alt="Logo"> </a>
         </div>
            
-        <div class="nav">
+        <div class="nav " >
              
             <div class="tendina">
 
-                <a href=""><div class="tendina__menu">RISULTATI</div></a> 
+                <a href="./pagine/Pagine_Risultati/Risultati_Motogp.html"><div class="tendina__menu">RISULTATI</div></a> 
                 
                 <div class="tendina__dropdown">
 
@@ -32,39 +33,42 @@
                 </div>
                 
             </div>
-            
-            <div class="tendina">
-                
-                <a href=""><div class="tendina__menu">SCUDERIE</div></a>
 
-                <div class="tendina__dropdown">
-
-                    <a href="" ><div class="dropdown__content">MOTOGP</div></a>
-                    <a href="" ><div class="dropdown__content">MOTO2"</div></a>
-                    <a href="" ><div class="dropdown__content">MOTO3</div></a>
-
-                </div>
-                
-            </div>
-            <div class="tendina">
-
-                <a href=""><div class="tendina__menu">PILOTI</div></a>
-
-                <div class="tendina__dropdown">
-
-                    <a href="" ><div class="dropdown__content">MOTOGP</div></a>
-                    <a href="" ><div class="dropdown__content">MOTO2"</div></a>
-                    <a href="" ><div class="dropdown__content">MOTO3</div></a>
-                </div>
-            
-            </div>
-            
             <div class="tendina" id="circuiti">
 
-                <a href=""><div class="tendina__menu">CIRCUITI</div></a>
+                <a href="./pagine/Pagine_Circuiti/Circuiti.html"><div class="tendina__menu">CIRCUITI</div></a>
 
             </div>
 
+
+            
+            <div class="tendina">
+                
+                <a href="./pagine/Pagine_Scuderie/Scuderie_Motogp.html"><div class="tendina__menu">SCUDERIE</div></a>
+
+                <div class="tendina__dropdown">
+
+                    <a href="./pagine/Pagine_Scuderie/Scuderie_Motogp.html" ><div class="dropdown__content">MOTOGP</div></a>
+                    <a href="./pagine/Pagine_Scuderie/Scuderie_Moto2.html" ><div class="dropdown__content">MOTO2"</div></a>
+                    <a href="./pagine/Pagine_Scuderie/Scuderie_Moto3.html" ><div class="dropdown__content">MOTO3</div></a>
+
+                </div>
+                
+            </div>
+            <div class="tendina">
+
+                <a href="./pagine/Pagine_Piloti/Piloti_Motogp.html"><div class="tendina__menu">PILOTI</div></a>
+
+                <div class="tendina__dropdown">
+
+                    <a href="./pagine/Pagine_Piloti/Piloti_Motogp.html" ><div class="dropdown__content">MOTOGP</div></a>
+                    <a href="./pagine/Pagine_Piloti/Piloti_Moto2.html" ><div class="dropdown__content">MOTO2"</div></a>
+                    <a href="./pagine/Pagine_Piloti/Pilot_Moto3.html" ><div class="dropdown__content">MOTO3</div></a>
+                </div>
+            
+            </div>
+            
+       
                     
         </div>
 
@@ -72,16 +76,25 @@
             <img src="./immagini/fimlogo.png" alt="Logo">
         </div>
         
-        
+        <div class="icon-bar"><a href="">
+            <span></span>
+            <span></span>
+            <span></span>
+
+            </a>
+        </div>
+
     </header>
+
+
 
     <main class="contenitore-main">
 
-        <aside class="contenitore-main__aside" id="contenitore-main__aside-left"> </aside>
-        <div class="contenitore-main__pagina"></div>
-        <!-- <div class="contenitore-main__img"><img src="./immagini/rossi46.jpeg" alt=""></div> -->
-        <aside class="contenitore-main__aside" id="contenitore-main__aside-right">.</aside>
+      
+        
 
+    
+           
     </main>
 
 
@@ -89,5 +102,22 @@
         <div>Sito fatto da Ahmad e Riccardo</div>
     </footer>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $(".icon-bar").click(function(e){
+
+                $(".nav").toggleClass('is-open-1');
+                
+                
+
+                e.preventDefault();
+
+            });
+
+        });
+    </script>
 </body>
 </html>
