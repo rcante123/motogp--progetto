@@ -88,6 +88,7 @@ body{margin: auto; background: rgb(184, 6, 35);}
 
 
 
+<<<<<<< HEAD
 
 
 @media(max-width :1000px){
@@ -120,3 +121,22 @@ body{margin: auto; background: rgb(184, 6, 35);}
     .contenitore-main{width: 90%; }
     
 }
+=======
+/*PILOTI*/
+
+.pilota{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+
+.img_piloti{
+    width: 100px;
+    height: 75px;
+}
+
+.info_piloti{
+    width: 125px;
+}
+
+>>>>>>> 7d8f63a09c0dd3949959b299314d4b62ad402f10
