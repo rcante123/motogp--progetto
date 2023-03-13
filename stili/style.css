@@ -1,9 +1,6 @@
-
 *{box-sizing: border-box;}
 
 body{margin: auto; background: rgb(184, 6, 35);}
-
-
 
 
 
@@ -26,6 +23,7 @@ body{margin: auto; background: rgb(184, 6, 35);}
 }
 
 
+
 /*HEADER TENDINA*/
 
 .tendina{
@@ -37,8 +35,6 @@ body{margin: auto; background: rgb(184, 6, 35);}
     height: 90px;
     position:relative;
 }
-
-
 
 .tendina__menu{height: 100%; line-height: 90px;  }
 
@@ -57,25 +53,20 @@ body{margin: auto; background: rgb(184, 6, 35);}
 .dropdown__content:hover {color: rgb(238, 48, 48);}
 
 .icon-bar{display: block; padding: 28.5px 20px; display :none;} 
+
 .icon-bar span{ display: block; height: 5px; width: 35px;background: white; margin-bottom: 6px;}
+
 .icon-bar :hover span{ background:rgb(238, 48, 48);}
+
 
 
 /*MAIN CENTRALE*/
 
 .contenitore-main{  min-height: 581px; background: white; width: 85%; margin: 0 auto; border-left:  4px solid black; border-right:  4px solid black;}
 
-
 .container-titolo__img{border: 5px solid red; height: auto;} 
+
 .container-titolo__img img{width :100%; height: auto}
-
-
-
-
-
-
-
-
 
 
 
@@ -85,11 +76,7 @@ body{margin: auto; background: rgb(184, 6, 35);}
 
 
 
-
-
-
-
-
+/*MEDIA QUERY*/
 
 @media(max-width :1000px){
 
@@ -121,22 +108,3 @@ body{margin: auto; background: rgb(184, 6, 35);}
     .contenitore-main{width: 90%; }
     
 }
-
-/*PILOTI*/
-
-.pilota{
-    width: 200px;
-    height: 200px;
-    justify-content: center;
-}
-
-.img_piloti{
-    width: 100px;
-    height: 75px;
-}
-
-.info_piloti{
-    width: 125px;
-}
-
-
