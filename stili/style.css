@@ -97,7 +97,10 @@ body a{text-decoration: none;}
 
 .contenitore-main h1{font-size: 60px; font-family: 'MOTOGP Bold'; margin: 0;}
 
-/*TItolo*/
+
+
+/*TITOLO*/
+
 .contenitore-titolo{width: 100%;height: 285px; position :relative; border-bottom: 5px solid  rgb(184, 6, 35);} 
 
 .contenitore-titolo__sfondo img{width :100%; height: 280px; object-fit: cover; display: block;}  
@@ -113,7 +116,10 @@ body a{text-decoration: none;}
     padding-bottom: 10px;
 }
 
-/*Indice*/
+
+
+/*INDICE*/
+
 .indice{width: 75%; height: 60px; margin: 0 auto;}
 .indice a{display: inline-block; width:20%; margin: 0 auto; color: black;}
 .indice__up{width: 100%; text-align: center; height: 30px; font-size: 20px; line-height: 30px;}
@@ -122,10 +128,8 @@ body a{text-decoration: none;}
 
 
 
+/*STYLE PILOTI*/
 
-
-
-/*Style Piloti*/
 .button a {color: black;}
 .button {background-color: rgb(184, 6, 35); width: 150px; height: auto; border-radius: 5px; border: 2px solid black;position:absolute;left: 20px; top:20px;  }
 .button__content { text-align: center;line-height: 30px;height: 40px; width: 100%; text-align: center; font-size: 18px; font-family: 'MOTOGP Italic'; padding: 5px;}
@@ -134,7 +138,9 @@ body a{text-decoration: none;}
 
 
 
+/*STYLE RISULTATI*/
 
+th.pos-class{}
 
 /*FOOTER*/
 
