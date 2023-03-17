@@ -17,8 +17,7 @@
 }
 body{margin: auto; background: rgb(184, 6, 35);}
 body a{text-decoration: none;}
-
-
+h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 
 /*HEADER BARRA*/
 
@@ -60,7 +59,13 @@ body a{text-decoration: none;}
 .tendina__menu {text-decoration: none; color: rgb(171,24,59); padding: 0 10px;}
 
 .tendina__dropdown{height: 135px; background: black;  display: none; padding-bottom: 5px ; }
+<<<<<<< HEAD
 .tendina:hover .tendina__dropdown{display:block; background: rgb(12, 12, 12); }
+=======
+
+.tendina:hover .tendina__dropdown{display:block; background: rgb(12, 12, 12); animation: animation-dropdown 0.3s ease-in-out}
+@keyframes animation-dropdown{from{ opacity: 0; transform: translateY(-10px);} to {opacity: 1; transform: translateY(0px);}}
+>>>>>>> 3bb3ce5cee984778c71ba64a140421d2ab911cfa
 
 .tendina__dropdown a {color: white;}
 
@@ -77,10 +82,7 @@ body a{text-decoration: none;}
 
 .contenitore-main{  
     position :relative;
-    z-index: 0;
-    display: flex;  
-    flex-wrap: wrap;
-    
+    z-index: 0;  
     background: white; 
     width: 85%; 
     margin: 0 auto; 
@@ -110,15 +112,16 @@ body a{text-decoration: none;}
     padding-bottom: 10px;
 }
 
-
-
-/*INDICE*/
-
-.indice{width: 75%; height: 60px; margin: 0 auto;}
+/*Indice*/
+.indice{width: 60%; height: 110px; margin: 0 auto; padding:20px;}
+.indice h2{font-family: 'MOTOGP Bold';}
 .indice a{display: inline-block; width:20%; margin: 0 auto; color: black;}
-.indice__up{width: 100%; text-align: center; height: 30px; font-size: 20px; line-height: 30px;}
+.indice__up{width: 100%; text-align: center; height: 40px; font-size: 20px; line-height: 30px;}
 .indice__down{width: 100%; height: 30px; display: flex;  font-size: 17px; line-height: 30px;}
-.indice__down__content{width: 100%; text-align: center;}
+.indice__down__content{width: 100%; text-align: center; background:  rgb(184, 6, 35) ; border-radius: 5px; border: 1px solid black; font-family: 'MOTOGP Regular'; transition: all 0.2s ease-in-out;}
+.indice__down__content:hover {background: rgb(238, 48, 48); transform: scale(1.05);}
+
+
 
 
 
@@ -189,7 +192,7 @@ td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: c
 
 @media(max-width :830px){
     
-    .nav{flex-direction: column;height: 195px; border-top: 0.5px solid rgb(171,24,59); padding: 5px 0px; width:100%; position:absolute; top : 90px; right:0; left:0; display: none;}
+    .nav{flex-direction: column;height: 195px; border-top: 0.5px solid rgb(171,24,59); padding: 5px 0px; width:100%; position:absolute; top : 90px; right:0; left:0; display: none; }
     .tendina{width:100%; text-align: right;height: 45px;}
     .tendina__menu{height: 45px; line-height: 45px; padding-right: 20px; }
     .tendina:hover .tendina__dropdown{display:none}
