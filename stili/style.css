@@ -59,13 +59,9 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 .tendina__menu {text-decoration: none; color: rgb(171,24,59); padding: 0 10px;}
 
 .tendina__dropdown{height: 135px; background: black;  display: none; padding-bottom: 5px ; }
-<<<<<<< HEAD
-.tendina:hover .tendina__dropdown{display:block; background: rgb(12, 12, 12); }
-=======
 
 .tendina:hover .tendina__dropdown{display:block; background: rgb(12, 12, 12); animation: animation-dropdown 0.3s ease-in-out}
 @keyframes animation-dropdown{from{ opacity: 0; transform: translateY(-10px);} to {opacity: 1; transform: translateY(0px);}}
->>>>>>> 3bb3ce5cee984778c71ba64a140421d2ab911cfa
 
 .tendina__dropdown a {color: white;}
 
