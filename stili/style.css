@@ -94,7 +94,7 @@ body a{text-decoration: none;}
     border-right:  4px solid black;   
     }
 
-<<<<<<< HEAD
+
 .contenitore-main h1{font-size: 60px; font-family: 'MOTOGP Bold'; margin: 0;}
 
 /*TItolo*/
@@ -136,14 +136,6 @@ body a{text-decoration: none;}
 
 
 
-=======
-.container-titolo__img{border: 5px solid red; height: auto;} 
-
-.container-titolo__img img{width :100%; height: auto}
-
-
-
->>>>>>> c6cd9a2cd02ef5edf0746f8b583a4f15099f9bdb
 /*FOOTER*/
 
 .footer{height: 50px; background: black; color: white; line-height: 50px; text-align: center; width:100%;}
@@ -188,11 +180,4 @@ body a{text-decoration: none;}
     .contenitore-titolo{height: 245px; } 
     .contenitore-titolo__sfondo img{height: 240px;}  
     
-<<<<<<< HEAD
 }
-
-
-
-=======
-}
->>>>>>> c6cd9a2cd02ef5edf0746f8b583a4f15099f9bdb
