@@ -55,26 +55,20 @@ body a{text-decoration: none;}
     z-index: 1;
 }
 
-.tendina__menu{height: 100%; line-height: 90px;  }
-
+.tendina__menu{height: 100%; line-height: 90px;}
 .tendina:hover .tendina__menu{color: rgb(238, 48, 48); background: rgb(12, 12, 12);}
-
 .tendina__menu {text-decoration: none; color: rgb(171,24,59); padding: 0 10px;}
 
 .tendina__dropdown{height: 135px; background: black;  display: none; padding-bottom: 5px ; }
-
 .tendina:hover .tendina__dropdown{display:block; background: rgb(12, 12, 12); }
 
 .tendina__dropdown a {color: white;}
 
 .dropdown__content{height: 45px; line-height: 45px; font-size: 18px;}
-
 .dropdown__content:hover {color: rgb(238, 48, 48);}
 
 .icon-bar{display: block; padding: 28.5px 20px; display :none;} 
-
 .icon-bar span{ display: block; height: 5px; width: 35px;background: white; margin-bottom: 6px;}
-
 .icon-bar :hover span{ background:rgb(238, 48, 48);}
 
 
