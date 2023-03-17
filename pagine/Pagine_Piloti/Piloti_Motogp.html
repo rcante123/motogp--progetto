@@ -1,40 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <title>Piloti Moto3</title>
+
+    <title>Piloti MotoGp</title>
+    <link rel="icon" type="img/png" href="../../immagini/motogp_cmyk_tm.svg">
     <link rel="stylesheet" href="../../stili/style.css">
-=======
-    <link rel="stylesheet" href="../../stili/style.css">
-    <title>Document</title>
->>>>>>> 7d8f63a09c0dd3949959b299314d4b62ad402f10
+
+
 </head>
 <body>
     
          <script src="../../js/Script_Header_Pagine.js"></script>
          <script src="../../js/Script_JQuery.js"></script>
 
-        
+         <div class="contenitore-main">
+            <div class="button">
+               
+                    <a href="">
+                        <div class="button__content button__content-up">MotoGp</div >
+                    </a>
+
+                
+                    <a href="Piloti_Moto2.html">
+                        <div class="button__content button__content-down" >Moto2</div>
+                    </a>
+                
+
+                    <a href="Pilot_Moto3.html">
+                        <div class="button__content button__content-down">Moto3</div>
+                     </a>
+
+
+            </div>
+            
+         </div>
 
 
          <script src="../../js/Script_Footer_Pagine.js"></script>
 
-        <main>
-            <div class="pilota">
-                <div class="img_piloti"><img src="../../immagini/bagnaia.jpg" alt=""></div>
-                <div class="info_piloti">
-                    <p>Nome: Francesco</p>
-                    <p>Cognome: Baagnaia</p>
-                    <p>Numero: 63</p>
-                </div>
-            </div>
-
-
-        </main>
+         <script>
+            $(document).ready(function(){
     
+                $(".button__content-up").click(function(e){
+    
+                    $(".button__content-down").toggleClass('is-open-2');
+                    
+                    
+    
+                    e.preventDefault();
+    
+                });
+    
+            });
+        </script>
+
+ 
+
+  
 
 </body>
 </html>

@@ -1,4 +1,20 @@
-.contenitore{width: 90%; height: auto; min-height: 150px; margin: 0 auto; display: flex; background: yellow; padding: 10px;}
-.contenitore__singolo{width: 33.3%;}
-.contenitore img{ width: 100%; height: auto; }
-.contenitore__foto img{height:100%;object-fit: cover;}
+.contenitore{
+    width: 90%;   
+    margin:  45px auto 45px auto; 
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: rgb(232,232,232);
+    background: linear-gradient(270deg, rgba(232,232,232,0.7484243697478992) 0%, rgba(0,0,0,0.804359243697479) 100%);
+    padding: 10px;
+    border-radius: 30px;
+    border-bottom: 10px solid black;
+    border-right: 15px solid black;
+    
+}
+
+.contenitore__singolo{width: 33.3%; height: 100%;  }
+.contenitore__singolo img {width: 100%; height: auto;  text-align: center; padding: 20px;}
+.contenitore__tracciato img{width: 80%; margin: 0 auto }
+

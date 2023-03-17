@@ -1,7 +1,23 @@
 
 *{box-sizing: border-box;}
-
+@font-face {
+    font-family: 'MOTOGP Display-Bold';
+    src: url(.././Font/MotoGPDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: 'MOTOGP Italic' ;
+    src: url(.././Font/MotoGPText-Italic.ttf);
+}
+@font-face {
+    font-family: 'MOTOGP Regular' ;
+    src: url(.././Font/MotoGPText-Regular.ttf);
+}
+@font-face {
+    font-family: 'MOTOGP Bold';
+    src: url(.././Font/MotoGPDisplay-Bold.ttf);
+}
 body{margin: auto; background: rgb(184, 6, 35);}
+body a{text-decoration: none;}
 
 
 
@@ -15,11 +31,13 @@ body{margin: auto; background: rgb(184, 6, 35);}
 
 .header img{height: 100%;}
 
-.header a{text-decoration: none;}
+
 
 .nav{
     display: flex; 
     justify-content: space-around;
+    position: relative;
+    z-index: 1;
     background: black;
     height: 90px;
     width: 65%
@@ -30,12 +48,13 @@ body{margin: auto; background: rgb(184, 6, 35);}
 
 .tendina{
     color: rgb(171,24,59); 
-    font-size: 20px; 
+    font-size: 25px; 
     width: 20%;
     text-align: center;
-    font-family: "Arial";
+    font-family: "MOTOGP Display-Bold";
     height: 90px;
     position:relative;
+    z-index: 1;
 }
 
 
@@ -46,13 +65,13 @@ body{margin: auto; background: rgb(184, 6, 35);}
 
 .tendina__menu {text-decoration: none; color: rgb(171,24,59); padding: 0 10px;}
 
-.tendina__dropdown{height: 135px; background: black;  display: none;}
+.tendina__dropdown{height: 135px; background: black;  display: none; padding-bottom: 5px ; }
 
-.tendina:hover .tendina__dropdown{display:block; background: rgb(12, 12, 12);}
+.tendina:hover .tendina__dropdown{display:block; background: rgb(12, 12, 12); }
 
 .tendina__dropdown a {color: white;}
 
-.dropdown__content{height: 45px; line-height: 45px; font-size: 15px;}
+.dropdown__content{height: 45px; line-height: 45px; font-size: 18px;}
 
 .dropdown__content:hover {color: rgb(238, 48, 48);}
 
@@ -63,17 +82,55 @@ body{margin: auto; background: rgb(184, 6, 35);}
 
 /*MAIN CENTRALE*/
 
-.contenitore-main{  min-height: 581px; background: white; width: 85%; margin: 0 auto; border-left:  4px solid black; border-right:  4px solid black;}
+.contenitore-main{  
+    position :relative;
+    z-index: 0;
+    display: flex;  
+    flex-wrap: wrap;
+    
+    background: white; 
+    width: 85%; 
+    margin: 0 auto; 
+    border-left:  4px solid black; 
+    border-right:  4px solid black;   
+    }
+
+.contenitore-main h1{font-size: 60px; font-family: 'MOTOGP Bold'; margin: 0;}
+
+/*TItolo*/
+.contenitore-titolo{width: 100%;height: 285px; position :relative; border-bottom: 5px solid  rgb(184, 6, 35);} 
+
+.contenitore-titolo__sfondo img{width :100%; height: 280px; object-fit: cover; display: block;}  
+.contenitore-titolo__testo{
+    color: rgb(184, 6, 35);
+    width:100%;position: absolute;
+    
+    bottom: 0px; 
+    text-align: center; 
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); 
+    padding-top: 160px;
+    padding-bottom: 10px;
+}
+
+/*Indice*/
+.indice{width: 75%; height: 60px; margin: 0 auto;}
+.indice a{display: inline-block; width:20%; margin: 0 auto; color: black;}
+.indice__up{width: 100%; text-align: center; height: 30px; font-size: 20px; line-height: 30px;}
+.indice__down{width: 100%; height: 30px; display: flex;  font-size: 17px; line-height: 30px;}
+.indice__down__content{width: 100%; text-align: center;}
 
 
-.container-titolo__img{border: 5px solid red; height: auto;} 
-.container-titolo__img img{width :100%; height: auto}
 
 
 
 
-
-
+/*Style Piloti*/
+.button a {color: black;}
+.button {background-color: rgb(184, 6, 35); width: 150px; height: auto; border-radius: 5px; border: 2px solid black;position:absolute;left: 20px; top:20px;  }
+.button__content { text-align: center;line-height: 30px;height: 40px; width: 100%; text-align: center; font-size: 18px; font-family: 'MOTOGP Italic'; padding: 5px;}
+.button__content-down{display: none; border-top: 1px solid black ;}
+.is-open-2{display: block;}
 
 
 
@@ -93,6 +150,7 @@ body{margin: auto; background: rgb(184, 6, 35);}
 
 @media(max-width :1000px){
 
+   
     .tendina{
         width: 25%;
     }
@@ -101,16 +159,19 @@ body{margin: auto; background: rgb(184, 6, 35);}
         padding: 0;
     }
 
+
+
 }
 
 @media(max-width :830px){
     
-    .nav{flex-direction: column;height: 0;overflow: hidden; width:100%; position:absolute; top : 90px; right:0; left:0; }
-    .tendina{width:100%; text-align: right;}
+    .nav{flex-direction: column;height: 195px; border-top: 0.5px solid rgb(171,24,59); padding: 5px 0px; width:100%; position:absolute; top : 90px; right:0; left:0; display: none;}
+    .tendina{width:100%; text-align: right;height: 45px;}
     .tendina__menu{height: 45px; line-height: 45px; padding-right: 20px; }
     .tendina:hover .tendina__dropdown{display:none}
     
-    .is-open-1{height: 190px; overflow: auto; padding: 5 0px;}
+    
+    .is-open-1{display: block; }
     
 
     #logo2{display: none;}
@@ -119,24 +180,11 @@ body{margin: auto; background: rgb(184, 6, 35);}
 
 
     .contenitore-main{width: 90%; }
+    .contenitore-main h1{font-size: 50px;}
+    .contenitore-titolo{height: 245px; } 
+    .contenitore-titolo__sfondo img{height: 240px;}  
     
 }
 
-/*PILOTI*/
-
-.pilota{
-    width: 200px;
-    height: 200px;
-    justify-content: center;
-}
-
-.img_piloti{
-    width: 100px;
-    height: 75px;
-}
-
-.info_piloti{
-    width: 125px;
-}
 
 

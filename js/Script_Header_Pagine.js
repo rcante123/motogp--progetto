@@ -49,7 +49,7 @@ document.write(`
 
                     <a href="../Pagine_Piloti/Piloti_Motogp.html" ><div class="dropdown__content">MOTOGP</div></a>
                     <a href="../Pagine_Piloti/Piloti_Moto2.html" ><div class="dropdown__content">MOTO2"</div></a>
-                    <a href="../Pagine_Piloti/Pilot_Moto3.html" ><div class="dropdown__content">MOTO3</div></a>
+                    <a href="../Pagine_Piloti/Piloti_Moto3.html" ><div class="dropdown__content">MOTO3</div></a>
                 </div>
             
             </div>
