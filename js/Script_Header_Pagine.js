@@ -34,7 +34,7 @@ document.write(`
                 <div class="tendina__dropdown">
 
                 <a href="../Pagine_Scuderie/Scuderie_Motogp.html" ><div class="dropdown__content">MOTOGP</div></a>
-                <a href="../Pagine_Scuderie/Scuderie_Moto2.html" ><div class="dropdown__content">MOTO2"</div></a>
+                <a href="../Pagine_Scuderie/Scuderie_Moto2.html" ><div class="dropdown__content">MOTO2</div></a>
                 <a href="../Pagine_Scuderie/Scuderie_Moto3.html" ><div class="dropdown__content">MOTO3</div></a>
 
                 </div>
@@ -48,7 +48,7 @@ document.write(`
                 <div class="tendina__dropdown">
 
                     <a href="../Pagine_Piloti/Piloti_Motogp.html" ><div class="dropdown__content">MOTOGP</div></a>
-                    <a href="../Pagine_Piloti/Piloti_Moto2.html" ><div class="dropdown__content">MOTO2"</div></a>
+                    <a href="../Pagine_Piloti/Piloti_Moto2.html" ><div class="dropdown__content">MOTO2</div></a>
                     <a href="../Pagine_Piloti/Piloti_Moto3.html" ><div class="dropdown__content">MOTO3</div></a>
                 </div>
             

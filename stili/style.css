@@ -153,13 +153,15 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 th,
 td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: collapse;}
 
-#tabella__prima-riga{height: 40px; font-family: 'MOTOGP Display-Bold';}
+#tabella__prima-riga{font-family: 'MOTOGP Display-Bold'; font-size: 19px;}
 .tabella-ris tr{height: 25px; font-family: 'MOTOGP Regular';}
 
 .tabella__cella-pilota{width: 15%;}
 .tabella__cella-pos{width: 3%;}
 .tabella__cella-pti{width: 4%;}
 .tabella__cella-circuiti{width: auto;}
+
+.tabella__cella-circuiti img{height: auto; width: 90%;}
 
 
 
