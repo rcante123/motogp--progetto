@@ -134,7 +134,35 @@ body a{text-decoration: none;}
 
 /*STYLE RISULTATI*/
 
-th.pos-class{}
+#contenitore-main{  
+    position :relative;
+    z-index: 0;
+    display: flex;  
+    flex-wrap: wrap;
+    background: white; 
+    width: 97%; 
+    margin: 0 auto; 
+    border-left:  4px solid black; 
+    border-right:  4px solid black;   
+}
+
+.tabella-ris{width: 100%; margin: 0 auto; width: 100%;}
+
+.tabella-ris table{width: 100%; padding: 5px;}
+
+.tabella-ris tr,
+th,
+td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: collapse;}
+
+#tabella__prima-riga{height: 40px; font-family: 'MOTOGP Display-Bold';}
+.tabella-ris tr{height: 25px; font-family: 'MOTOGP Regular';}
+
+.tabella__cella-pilota{width: 15%;}
+.tabella__cella-pos{width: 3%;}
+.tabella__cella-pti{width: 4%;}
+.tabella__cella-circuiti{width: auto;}
+
+
 
 /*FOOTER*/
 

@@ -16,36 +16,663 @@
     <script src="../../js/Script_Header_Pagine.js"></script>
     <script src="../../js/Script_JQuery.js"></script>
 
-    <main class="contenitore-main">
-        <div class="tabella">
+    <main id="contenitore-main">
+
+        <div class="tabella-ris">
             <table cellpadding="0" cellspacing="0">
-                <th class="pos-class">
-                    Pos.
-                </th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
+
+                <tr id="tabella__prima-riga">
+                    <th class="tabella__cella-pos">Pos</th>
+                    <th class="tabella__cella-pilota">Pilota</th>
+                    <th class="tabella__cella-pti">Punti</th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                    <th class="tabella__cella-circuiti">circuito </th>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">1</td>
+                    <td class="tabella__cella-pilota">Francesco Bagnaia</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">2</td>
+                    <td class="tabella__cella-pilota">Johann Zarco</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">3</td>
+                    <td class="tabella__cella-pilota">Luca Marini</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">4</td>
+                    <td class="tabella__cella-pilota">Maverick Viñales</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">5</td>
+                    <td class="tabella__cella-pilota">Fabio Quartararo</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">6</td>
+                    <td class="tabella__cella-pilota">Franco Morbidelli</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">7</td>
+                    <td class="tabella__cella-pilota">Enea Bastianini</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">8</td>
+                    <td class="tabella__cella-pilota">Raul Fernandez</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">9</td>
+                    <td class="tabella__cella-pilota">Raul Fernandez</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">8</td>
+                    <td class="tabella__cella-pilota">Raul Fernandez</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">9</td>
+                    <td class="tabella__cella-pilota">Takaaki Nakagami</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">10</td>
+                    <td class="tabella__cella-pilota">Brad Binder</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">11</td>
+                    <td class="tabella__cella-pilota">Joan Mir</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">12</td>
+                    <td class="tabella__cella-pilota">Augusto Fernandez</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">13</td>
+                    <td class="tabella__cella-pilota">Aleix Espargaro</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">14</td>
+                    <td class="tabella__cella-pilota">Alex Rins</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">15</td>
+                    <td class="tabella__cella-pilota">Jack Miller</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">16</td>
+                    <td class="tabella__cella-pilota">Pol Espargaro</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">17</td>
+                    <td class="tabella__cella-pilota">Fabio Di Giannantonio</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">18</td>
+                    <td class="tabella__cella-pilota">Marco Bezzecchi</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">19</td>
+                    <td class="tabella__cella-pilota">Alex Marquez</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">20</td>
+                    <td class="tabella__cella-pilota">Miguel Oliveira</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">21</td>
+                    <td class="tabella__cella-pilota">Jorge Martin</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
+                <tr>
+                    <td class="tabella__cella-pos">22</td>
+                    <td class="tabella__cella-pilota">Marc Marquez</td>
+                    <td class="tabella__cella-pti">100</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                    <td class="tabella__cella-circuiti">0</td>
+                </tr>
+
             </table>
+        </div>
         </div>  
     </main>
 
