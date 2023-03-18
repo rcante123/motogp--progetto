@@ -88,6 +88,7 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 
 
 .contenitore-main h1{font-size: 60px; font-family: 'MOTOGP Bold'; margin: 0;}
+.contenitore-main p{font-family: 'MOTOGP Regular';}
 
 
 
@@ -117,8 +118,6 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 .indice__down__content{width: 100%; text-align: center; background:  rgb(184, 6, 35) ; border-radius: 5px; border: 1px solid black; font-family: 'MOTOGP Regular'; transition: all 0.2s ease-in-out;}
 .indice__down__content:hover {background: rgb(238, 48, 48); transform: scale(1.05);}
 
-#contenitore-storia{ }
-
 
 
 
@@ -132,6 +131,24 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 .button__content { text-align: center;line-height: 30px;height: 40px; width: 100%; text-align: center; font-size: 18px; font-family: 'MOTOGP Italic'; padding: 5px;}
 .button__content-down{display: none; border-top: 1px solid black ;}
 .is-open-2{display: block;}
+
+
+.contenitore-piloti{padding-top: 100px; display: flex;flex-wrap: wrap; justify-content: space-around;}
+.pilota{width: 45%; padding: 20px; display: flex; position:relative; align-items: center;}
+.pilota h1{font-size: 30px;}
+
+.pilota__foto{width: 50%;}
+.pilota__foto img{width: 100%; height: auto;}
+
+.pilota__num-img{ position: absolute; left: 35px; bottom: 30px;  align-items: center; width: 20%;}
+.pilota__numero{ width:80%; margin: 0 auto;}
+.pilota__numero img{width:100%; height: auto;}
+.pilota__bandiera{margin: 0 auto;width: 55%; height: 50%; text-align: center;}
+.pilota__bandiera img{width: 100%; display: inline-block; }
+
+.pilota__info{width: 55%; }
+
+
 
 
 
