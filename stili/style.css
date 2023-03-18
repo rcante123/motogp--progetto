@@ -109,7 +109,7 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
     padding-bottom: 10px;
 }
 
-/*Indice*/
+/*INDICE*/
 .indice{width: 60%; height: 110px; margin: 0 auto; padding:20px;}
 .indice h2{font-family: 'MOTOGP Bold';}
 .indice a{display: inline-block; width:20%; margin: 0 auto; color: black;}
@@ -117,10 +117,6 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 .indice__down{width: 100%; height: 30px; display: flex;  font-size: 17px; line-height: 30px;}
 .indice__down__content{width: 100%; text-align: center; background:  rgb(184, 6, 35) ; border-radius: 5px; border: 1px solid black; font-family: 'MOTOGP Regular'; transition: all 0.2s ease-in-out;}
 .indice__down__content:hover {background: rgb(238, 48, 48); transform: scale(1.05);}
-
-
-
-
 
 
 
@@ -147,13 +143,6 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 .pilota__bandiera img{width: 100%; display: inline-block; }
 
 .pilota__info{width: 55%; }
-
-
-
-
-
-
-
 
 
 
@@ -188,6 +177,19 @@ td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: c
 .tabella__cella-circuiti{width: auto;}
 
 .tabella__cella-circuiti img{height: auto; width: 90%;}
+
+
+
+/*SYLE CIRCUITI*/  
+
+.contenitore-circuiti{width: 100%; height: 100%; background-color: white; padding-top: 20px;}
+
+.tracciato{width: 90%; height: auto; text-align: center; display: flex; align-items: center; margin: 0 auto; margin-bottom: 20px; border-radius: 5px; border: 5px solid black;}
+.tracciato h1{font-size: 30px; width: 100%;}
+.tracciato p{width: 100%; font-size: 20px; margin: 0;}
+.tracciato__img-tracciato{width: 55%; height: 100%; text-align: center; padding: 10px; border-right: 5px solid black;}
+.tracciato__img-tracciato img{width: 100%; height: auto; display: block;}
+.tracciato__info-tracciato{width: 45%; height: 100%; display: flex; flex-wrap: wrap; text-align: center; padding: 10px;}
 
 
 
