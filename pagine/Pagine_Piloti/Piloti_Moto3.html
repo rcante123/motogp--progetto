@@ -15,20 +15,20 @@
 
 
     <div class="contenitore-main">
-        <div class="button">
+        <div class="button piloti-categorie">
                
             <a href="">
-                <div class="button__content button__content-up">Moto3</div >
+                <div class="button__content categoria__content-up">Moto3</div >
             </a>
 
                 
             <a href="Piloti_Motogp.html">
-                <div class="button__content button__content-down" >Motogp</div>
+                <div class="button__content categoria__content-down" >Motogp</div>
             </a>
                 
 
             <a href="Piloti_Moto2.html">
-                <div class="button__content button__content-down">Moto2</div>
+                <div class="button__content categoria__content-down">Moto2</div>
             </a>
 
         </div>
@@ -501,9 +501,9 @@
     <script>
         $(document).ready(function(){
 
-            $(".button__content-up").click(function(e){
+            $(".categoria__content-up").click(function(e){
 
-                $(".button__content-down").toggleClass('is-open-2');
+                $(".categoria__content-down").toggleClass('is-open-2');
                 
                 
 
@@ -513,5 +513,21 @@
 
         });
     </script>
+
+    <script>
+        $(document).ready(function(){
+
+            $(".pilota__foto").click(function(e){
+
+                $(".pilota__info").toggleClass('is-open-3');
+                
+                
+
+                e.preventDefault();
+
+            });
+
+        });
+</script>
 </body>
 </html>

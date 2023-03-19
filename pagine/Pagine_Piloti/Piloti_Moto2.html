@@ -14,20 +14,20 @@
     <script src="../../js/Script_JQuery.js"></script>
 
     <div class="contenitore-main">
-        <div class="button">
+        <div class="button piloti-categorie">
            
                 <a href="">
-                    <div class="button__content button__content-up">Moto2</div >
+                    <div class="button__content categoria__content-up">Moto2</div >
                 </a>
 
             
                 <a href="Piloti_Moto3.html">
-                    <div class="button__content button__content-down" >Moto3</div>
+                    <div class="button__content categoria__content-down" >Moto3</div>
                 </a>
             
 
                 <a href="Piloti_MotoGP.html">
-                    <div class="button__content button__content-down">MotoGP</div>
+                    <div class="button__content categoria__content-down">MotoGP</div>
                  </a>
 
 
@@ -566,9 +566,25 @@
     <script>
         $(document).ready(function(){
 
-            $(".button__content-up").click(function(e){
+            $(".categoria__content-up").click(function(e){
 
-                $(".button__content-down").toggleClass('is-open-2');
+                $(".categoria__content-down").toggleClass('is-open-2');
+                
+                
+
+                e.preventDefault();
+
+            });
+
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+
+            $(".pilota__foto").click(function(e){
+
+                $(".pilota__info").toggleClass('is-open-3');
                 
                 
 
