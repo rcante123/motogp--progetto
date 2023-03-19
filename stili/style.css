@@ -295,7 +295,7 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
 
 .button a {color: white;}
 .button {z-index: 1;background-color: rgb(184, 6, 35); width: 150px; height: auto; border-radius: 5px; border: 2px solid white;position:absolute; top:20px;  }
-.categoria{left:20px}
+.categoria, .piloti-categorie{left:20px}
 .button__content { text-align: center;line-height: 30px;height: 40px; width: 100%; text-align: center; font-size: 18px; font-family: 'MOTOGP Italic'; padding: 5px;}
 .categoria__content-down {display: none; border-top: 1px solid white ;}
 .is-open-2{display: block; animation: animation-dropdown 0.4s ease-in-out;}
