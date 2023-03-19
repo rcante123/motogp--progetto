@@ -238,6 +238,87 @@ td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: c
 
 
 
+
+
+
+
+
+
+
+/*STYLE RISULTATI*/
+
+#contenitore-main{  
+    position :relative;
+    z-index: 0;
+    display: flex;  
+    flex-wrap: wrap;
+    background: rgb(23,28,33); 
+    width: 97%; 
+    margin: 0 auto; 
+    border-left:  4px solid black; 
+    border-right:  4px solid black;   
+}
+
+.anno{left: 200px;}
+
+.tabella-ris{
+    width: 90%; 
+    margin: 0 auto; 
+    margin-top: 75px; 
+    margin-bottom: 50px; 
+    display: flex; 
+    justify-content: center; 
+    border: 10px solid white; 
+    border-radius: 5px;
+}
+
+.tabella-ris table{width: 100%; padding: 5px; display: inline-block;}
+
+.tabella-ris tr,
+th,
+td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: collapse; color: white;} 
+
+#tabella__prima-riga{font-family: 'MOTOGP Display-Bold'; font-size: 19px;}
+.tabella-ris tr{height: 25px; font-family: 'MOTOGP Regular';}
+
+.tabella__cella-pilota{width: 15%;}
+.tabella__cella-pos{width: 3%;}
+.tabella__cella-pti{width: 4%;}
+.tabella__cella-circuiti{width: auto;}
+
+.tabella__cella-circuiti img{height: auto; width: 90%;}
+
+
+
+/*SYLE CIRCUITI*/  
+
+.contenitore-circuiti{width: 100%; height: 100%; padding-top: 20px;}
+
+.tracciato{
+    width: 90%; 
+    height: auto; 
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    margin: 0 auto; 
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+    border: 5px solid rgb(166, 0, 0);
+    background: rgb(205, 196, 196)
+}
+.tracciato h1{font-size: 30px; width: 100%; color: rgb(23,28,33);}
+.tracciato p{width: 100%; font-size: 20px; margin: 0; color: rgb(23,28,33);}
+.tracciato__img-tracciato{width: 55%; height: 100%; text-align: center; padding: 10px; border-right: 5px solid black; background: rgb(233,233,233);}
+.tracciato__img-tracciato img{width: 100%; height: auto; display: block;}
+.tracciato__info-tracciato{
+    width: 45%; 
+    height: 100%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    text-align: center; 
+    padding: 10px;
+}
+
 /*STYLE PILOTI*/
 
 .button a {color: white;}
@@ -263,10 +344,7 @@ td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: c
 
 .pilota__info{width: 55%; padding: 10px; text-align: center; color: rgb(23,28,33);}
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 581a7d51b1ec7c7856eb93029739327bd4f3b6ee
 
 /*PILOTI MOTOGP*/
 
@@ -351,84 +429,9 @@ td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: c
 }
 
 
+
 /*PILOTI MOTO2*/
 
-
-
-<<<<<<< HEAD
-/*STYLE RISULTATI*/
-
-#contenitore-main{  
-    position :relative;
-    z-index: 0;
-    display: flex;  
-    flex-wrap: wrap;
-    background: rgb(23,28,33); 
-    width: 97%; 
-    margin: 0 auto; 
-    border-left:  4px solid black; 
-    border-right:  4px solid black;   
-}
-
-.anno{left: 200px;}
-
-.tabella-ris{
-    width: 90%; 
-    margin: 0 auto; 
-    margin-top: 75px; 
-    margin-bottom: 50px; 
-    display: flex; 
-    justify-content: center; 
-    border: 10px solid white; 
-    border-radius: 5px;
-}
-
-.tabella-ris table{width: 100%; padding: 5px; display: inline-block;}
-
-.tabella-ris tr,
-th,
-td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: collapse; color: white;} 
-
-#tabella__prima-riga{font-family: 'MOTOGP Display-Bold'; font-size: 19px;}
-.tabella-ris tr{height: 25px; font-family: 'MOTOGP Regular';}
-
-.tabella__cella-pilota{width: 15%;}
-.tabella__cella-pos{width: 3%;}
-.tabella__cella-pti{width: 4%;}
-.tabella__cella-circuiti{width: auto;}
-
-.tabella__cella-circuiti img{height: auto; width: 90%;}
-
-
-
-/*SYLE CIRCUITI*/  
-
-.contenitore-circuiti{width: 100%; height: 100%; padding-top: 20px;}
-
-.tracciato{
-    width: 90%; 
-    height: auto; 
-    text-align: center; 
-    display: flex; 
-    align-items: center; 
-    margin: 0 auto; 
-    margin-bottom: 20px; 
-    border-radius: 5px; 
-    border: 5px solid rgb(166, 0, 0);
-    background: rgb(205, 196, 196)
-}
-.tracciato h1{font-size: 30px; width: 100%; color: rgb(23,28,33);}
-.tracciato p{width: 100%; font-size: 20px; margin: 0; color: rgb(23,28,33);}
-.tracciato__img-tracciato{width: 55%; height: 100%; text-align: center; padding: 10px; border-right: 5px solid black; background: rgb(233,233,233);}
-.tracciato__img-tracciato img{width: 100%; height: auto; display: block;}
-.tracciato__info-tracciato{
-    width: 45%; 
-    height: 100%; 
-    display: flex; 
-    flex-wrap: wrap; 
-    text-align: center; 
-    padding: 10px;
-=======
 .CAA-2{border: 10px solid rgb(22,42,158)}
 .CAA-2 .pilota__foto{
     border-right: 5px solid rgb(22,42,158);
@@ -441,7 +444,6 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
     border-right: 5px solid rgb(100,43,50);
     background: rgb(100,43,50);
     background: linear-gradient(0deg, rgba(100,43,50,0.85) 45%, rgba(255,255,255,0.01) 100%);
->>>>>>> 581a7d51b1ec7c7856eb93029739327bd4f3b6ee
 }
 
 
