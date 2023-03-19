@@ -301,6 +301,7 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
 .is-open-2{display: block; animation: animation-dropdown 0.4s ease-in-out;}
 
 
+
 .contenitore-piloti{padding-top: 50px; display: flex;flex-wrap: wrap; justify-content: space-around;}
 .pilota{background: rgb(233,233,233);width: 48%; display: flex; position:relative; align-items: center; margin-top :30px;  border-radius: 10px;} 
 .pilota h1{font-size: 30px;}
