@@ -112,6 +112,8 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
     padding-bottom: 10px;
 }
 
+
+
 /*INDICE*/
 .indice{width: 60%; height: 110px; margin: 0 auto; padding:20px;}
 .indice h2{font-family: 'MOTOGP Bold';}
@@ -129,7 +131,7 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 .button {z-index: 1;background-color: rgb(184, 6, 35); width: 150px; height: auto; border-radius: 5px; border: 2px solid white;position:absolute;left: 20px; top:20px;  }
 .button__content { text-align: center;line-height: 30px;height: 40px; width: 100%; text-align: center; font-size: 18px; font-family: 'MOTOGP Italic'; padding: 5px;}
 .button__content-down{display: none; border-top: 1px solid white ;}
-.is-open-2{display: block; animation: animation-dropdown 0.4s ease-in-out; }
+.is-open-2{display: block; animation: animation-dropdown 0.4s ease-in-out;}
 
 
 .contenitore-piloti{padding-top: 50px; display: flex;flex-wrap: wrap; justify-content: space-around;}
@@ -148,10 +150,6 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 
 .pilota__info{width: 55%; padding: 10px; text-align: center; color: rgb(23,28,33);}
 
-
-
-<<<<<<< HEAD
-=======
 .RHT{border: 10px solid rgb(226,78,35)}
 .RHT .pilota__foto{
     border-right: 5px solid rgb(226,78,35); 
@@ -236,7 +234,6 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 
 
 
->>>>>>> 394994f4e3d38c5853e65e7317cca87608cd6b87
 /*STYLE RISULTATI*/
 
 #contenitore-main{  
@@ -251,7 +248,9 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
     border-right:  4px solid black;   
 }
 
-.tabella-ris{width: 100%; margin: 0 auto; width: 100%;}
+.anno{left: 200px;}
+
+.tabella-ris{width: 100%; margin: 0 auto; width: 100%; margin-top: 150px;}
 
 .tabella-ris table{width: 100%; padding: 5px;}
 
@@ -273,14 +272,32 @@ td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: c
 
 /*SYLE CIRCUITI*/  
 
-.contenitore-circuiti{width: 100%; height: 100%; background-color: white; padding-top: 20px;}
+.contenitore-circuiti{width: 100%; height: 100%; padding-top: 20px;}
 
-.tracciato{width: 90%; height: auto; text-align: center; display: flex; align-items: center; margin: 0 auto; margin-bottom: 20px; border-radius: 5px; border: 5px solid black;}
-.tracciato h1{font-size: 30px; width: 100%;}
-.tracciato p{width: 100%; font-size: 20px; margin: 0;}
-.tracciato__img-tracciato{width: 55%; height: 100%; text-align: center; padding: 10px; border-right: 5px solid black;}
+.tracciato{
+    width: 90%; 
+    height: auto; 
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    margin: 0 auto; 
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+    border: 5px solid rgb(166, 0, 0);
+    background: rgb(205, 196, 196)
+}
+.tracciato h1{font-size: 30px; width: 100%; color: rgb(23,28,33);}
+.tracciato p{width: 100%; font-size: 20px; margin: 0; color: rgb(23,28,33);}
+.tracciato__img-tracciato{width: 55%; height: 100%; text-align: center; padding: 10px; border-right: 5px solid black; background: rgb(233,233,233);}
 .tracciato__img-tracciato img{width: 100%; height: auto; display: block;}
-.tracciato__info-tracciato{width: 45%; height: 100%; display: flex; flex-wrap: wrap; text-align: center; padding: 10px;}
+.tracciato__info-tracciato{
+    width: 45%; 
+    height: 100%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    text-align: center; 
+    padding: 10px;
+}
 
 
 
