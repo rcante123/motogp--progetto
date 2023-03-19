@@ -244,7 +244,7 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
     z-index: 0;
     display: flex;  
     flex-wrap: wrap;
-    background: white; 
+    background: rgb(23,28,33); 
     width: 97%; 
     margin: 0 auto; 
     border-left:  4px solid black; 
@@ -253,13 +253,22 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 
 .anno{left: 200px;}
 
-.tabella-ris{width: 100%; margin: 0 auto; width: 100%; margin-top: 150px;}
+.tabella-ris{
+    width: 90%; 
+    margin: 0 auto; 
+    margin-top: 75px; 
+    margin-bottom: 50px; 
+    display: flex; 
+    justify-content: center; 
+    border: 10px solid white; 
+    border-radius: 5px;
+}
 
-.tabella-ris table{width: 100%; padding: 5px;}
+.tabella-ris table{width: 100%; padding: 5px; display: inline-block;}
 
 .tabella-ris tr,
 th,
-td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: collapse;}
+td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: collapse; color: white;} 
 
 #tabella__prima-riga{font-family: 'MOTOGP Display-Bold'; font-size: 19px;}
 .tabella-ris tr{height: 25px; font-family: 'MOTOGP Regular';}
