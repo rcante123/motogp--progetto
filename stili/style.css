@@ -18,7 +18,7 @@
 html{width: 100%;}
 body{margin: auto; background: rgb(184, 6, 35);}
 body a{text-decoration: none;}
-h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
+h1, h2, h3{margin: 0; font-family: 'MOTOGP Bold';}
 
 
 /*HEADER BARRA*/
@@ -117,100 +117,39 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 /*INDICE*/
 .indice{width: 60%; height: 110px; margin: 0 auto; padding:20px;}
 .indice h2{font-family: 'MOTOGP Bold';}
-.indice a{display: inline-block; width:20%; margin: 0 auto; color: white;}
+.indice a{display: inline-block; width:20%; margin: 0 auto; color: rgb(233,233,233);}
 .indice__up{width: 100%; text-align: center; height: 40px; font-size: 20px; line-height: 30px;}
 .indice__down{width: 100%; height: 30px; display: flex;  font-size: 17px; line-height: 30px;}
 .indice__down__content{width: 100%; text-align: center; background:  rgb(184, 6, 35) ; border-radius: 5px; border: 1px solid white; font-family: 'MOTOGP Regular'; transition: all 0.2s ease-in-out;}
 .indice__down__content:hover {background: rgb(238, 48, 48); transform: scale(1.05);}
 
-.testi-home{width: 100%; height: auto; padding: 15px;}
-.home-img_floatdx{float: right; width: 10%; height: auto;}
-.home-img_floatsx{float: left; width: 10%; height: 99px;}
-.home-img_floatdx_grandi{float: right; width: 25%; height: 175px; padding-left: 20px;}
-.home-img_floatsx_grandi{float: left; width: 30%; height: 250px; padding-right: 10px; padding-top: 10px;}
+.testi-home{width: 95%; height: auto; padding: 15px; color: rgb(23,28,33); margin: 0 auto; }
 
-
-
-/*STYLE RISULTATI*/
-
-#contenitore-main{  
-    position :relative;
-    z-index: 0;
-    display: flex;  
-    flex-wrap: wrap;
-    background: white; 
-    width: 97%; 
-    margin: 0 auto; 
-    border-left:  4px solid black; 
-    border-right:  4px solid black;   
-}
-
-.anno{left: 200px;}
-.anno__content-down{display:none; border-top: 1px solid white ;}
-.is-open-5{display: block;  animation: animation-dropdown 0.4s ease-in-out;}
-
-.tabella-ris{width: 100%; margin: 0 auto; width: 100%; margin-top: 150px;}
-
-.tabella-ris table{width: 100%; padding: 5px;}
-
-.tabella-ris tr,
-th,
-td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: collapse;}
-
-#tabella__prima-riga{font-family: 'MOTOGP Display-Bold'; font-size: 19px;}
-.tabella-ris tr{height: 25px; font-family: 'MOTOGP Regular';}
-
-.tabella__cella-pilota{width: 15%;}
-.tabella__cella-pos{width: 3%;}
-.tabella__cella-pti{width: 4%;}
-.tabella__cella-circuiti{width: auto;}
-
-.tabella__cella-circuiti img{height: auto; width: 90%;}
-
-.contenitore-circuiti{width: 100%; height: 100%; padding-top: 20px;}
+#contenitore-storia{background:  rgb(233,233,233); padding:  0 10px; margin-bottom: 20px; border-radius: 5px; border: 5px solid red;}
+#contenitore-moto{background:  rgb(233,233,233); padding:  0 10px; margin-bottom: 20px; border-radius: 5px; border: 5px solid red;}
+#contenitore-regole{background:  rgb(233,233,233); padding:  0 10px; margin-bottom: 20px; border-radius: 5px; border: 5px solid red;}
 
 
 
 /*SYLE CIRCUITI*/  
 
-.contenitore-circuiti{width: 100%; height: 100%; background: rgb(23,28,33); ; padding-top: 20px; padding-bottom: 20px;}
+.contenitore-circuiti{width: 100%; height: 100%; display: flex;flex-wrap: wrap; justify-content: space-around;background: rgb(23,28,33); ; padding-top: 20px; padding-bottom: 20px;}
 
-.tracciato{width: 90%; height: auto; text-align: center; display: flex; align-items: center; margin: 0 auto; margin-bottom: 20px; border-radius: 5px; border: 5px solid black;}
-.tracciato h1{font-size: 30px; width: 100%;}
-.tracciato p{width: 100%; font-size: 20px; margin: 0;}
-.tracciato__img-tracciato{width: 55%; height: 100%; text-align: center; padding: 10px; border-right: 5px solid black;}
-.tracciato__img-tracciato img{width: 100%; height: auto; display: block;}
-.tracciato__info-tracciato{width: 45%; height: 100%; display: flex; flex-wrap: wrap; text-align: center; padding: 10px;}
+.tracciato{position: relative;width: 45%; height: auto; text-align: center; display: flex; align-items: center;  margin-bottom: 20px; border-radius: 5px; border: 5px solid rgb(184,6,35); background: rgb(205, 196, 196)}
 
-.tracciato{
-    width: 90%; 
-    height: auto; 
-    text-align: center; 
-    display: flex; 
-    align-items: center; 
-    margin: 0 auto; 
-    margin-bottom: 20px; 
-    border-radius: 5px; 
-    border: 5px solid rgb(166, 0, 0);
-    background: rgb(205, 196, 196)
-}
+
 .tracciato h1{font-size: 30px; width: 100%; color: rgb(23,28,33);}
 .tracciato p{width: 100%; font-size: 20px; margin: 0; color: rgb(23,28,33);}
-.tracciato__img-tracciato{width: 55%; height: 100%; text-align: center; padding: 10px; border-right: 5px solid black; background: rgb(233,233,233);}
-.tracciato__img-tracciato img{width: 100%; height: auto; display: block;}
-.tracciato__info-tracciato{
-    width: 45%; 
-    height: 100%; 
-    display: flex; 
-    flex-wrap: wrap; 
-    text-align: center; 
-    padding: 10px;
+.tracciato__img{width: 45%; height: 100%; text-align: center; display: flex;align-items: center;padding: 10px; border-right: 5px solid rgb(184,6,35); background: rgb(233,233,233); }
+.tracciato__img img{width: 100%; height: auto; display:inline-block;}
+.tracciato__info{ width: 55%; height: 100%; display: flex; flex-wrap: wrap; text-align: center; padding: 10px;}
+
+
+.tracciato__img{
+    
+    background: rgb(184,6,35);
+    background: linear-gradient(0deg, rgba(184,6,35,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%); 
 }
-
-
-
-
-
 
 
 
@@ -231,6 +170,8 @@ td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: c
 }
 
 .anno{left: 200px;}
+.anno__content-down{display:none; border-top: 1px solid white ;}
+.is-open-5{display: block;  animation: animation-dropdown 0.4s ease-in-out;}
 
 .tabella-ris{
     width: 90%; 
@@ -261,35 +202,6 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
 .tabella__cella-circuiti img{height: auto; width: 90%;}
 
 
-
-/*SYLE CIRCUITI*/  
-
-.contenitore-circuiti{width: 100%; height: 100%; padding-top: 20px;}
-
-.tracciato{
-    width: 90%; 
-    height: auto; 
-    text-align: center; 
-    display: flex; 
-    align-items: center; 
-    margin: 0 auto; 
-    margin-bottom: 20px; 
-    border-radius: 5px; 
-    border: 5px solid rgb(166, 0, 0);
-    background: rgb(205, 196, 196)
-}
-.tracciato h1{font-size: 30px; width: 100%; color: rgb(23,28,33);}
-.tracciato p{width: 100%; font-size: 20px; margin: 0; color: rgb(23,28,33);}
-.tracciato__img-tracciato{width: 55%; height: 100%; text-align: center; padding: 10px; border-right: 5px solid black; background: rgb(233,233,233);}
-.tracciato__img-tracciato img{width: 100%; height: 100%; display: block;}
-.tracciato__info-tracciato{
-    width: 45%; 
-    height: 100%; 
-    display: flex; 
-    flex-wrap: wrap; 
-    text-align: center; 
-    padding: 10px;
-}
 
 
 
@@ -864,6 +776,19 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
         padding: 0;
     }
 
+    .tracciato {width: 30%;}
+    .tracciato__img{width: 100%;}
+    .tracciato__info h1{font-size: 20px;}
+    .tracciato__info p{font-size: 16px; margin:0}
+
+    .tracciato__info{position: absolute; width: 100%; top :0; padding: 0;}
+    .tracciato__info p{display: none;}
+    .tracciato:hover .tracciato__info {height: 100%; animation: animation-dropdown 0.3s ease-in-out; background:rgb(233,233,233); padding: 5px 0 0 0;}
+    .tracciato:hover .tracciato__info p{display: block; border-bottom: 2px solid black;}
+    .tracciato:hover .tracciato__info h1 {display: none; }
+
+
+
     .scuderia{width: 30%;}
     .scuderia__foto{width: 100%}
     .scuderia__logo{width:20%;}
@@ -893,11 +818,9 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
     
 }
 
-@media(max-width :880px){
-    .tracciato__img-tracciato{height: 100%;}
-    .tracciato__info-tracciato h1{font-size: 25px;}
-    .tracciato__info-tracciato p{font-size: 18px;}
-}
+
+    
+
 
 
 @media(max-width :830px){
@@ -923,9 +846,14 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
     .indice a{width: 28%;}
     .indice__down{width: 100%;}
 
-    
+    .tracciato{width: 45%;}
+    .tracciato__info h1{font-size: 25px;}
+    .tracciato__info p{font-size: 18px}
+
+
     .scuderia{width: 40%;}
     .scuderia h1{font-size: 25px;}
+    
     
 
 
@@ -951,9 +879,16 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
 
 
 
+
+
     .piloti-categorie {width: auto;  margin: 0 auto; right: 12%; left: 12%; top:20px;}
     .categoria{width:35%; margin: 0 auto; left:12%}
     .anno{width: 35%; right: 12%; left:auto}
+
+
+    .tracciato{width: 90%}
+    .tracciato__info h1{font-size: 27px;}
+    .tracciato__info p{font-size: 18px;}
 
 
     .scuderia{width: 90%;}
