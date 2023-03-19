@@ -29,15 +29,8 @@ document.write(`
             
             <div class="tendina">
                 
-                <a href="../Pagine_Scuderie/Scuderie_Motogp.html"><div class="tendina__menu">SCUDERIE</div></a>
+                <a href="../Pagine_Scuderie/Scuderie_Motogp.html"><div class="tendina__menu">SCUDERIA</div></a>
 
-                <div class="tendina__dropdown">
-
-                <a href="../Pagine_Scuderie/Scuderie_Motogp.html" ><div class="dropdown__content">MOTOGP</div></a>
-                <a href="../Pagine_Scuderie/Scuderie_Moto2.html" ><div class="dropdown__content">MOTO2</div></a>
-                <a href="../Pagine_Scuderie/Scuderie_Moto3.html" ><div class="dropdown__content">MOTO3</div></a>
-
-                </div>
                 
             </div>
 

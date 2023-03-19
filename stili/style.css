@@ -291,6 +291,101 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
 }
 
 
+
+
+/*STYLE SCUDERIA*/
+.contenitore-scuderie{display: flex; flex-wrap: wrap; justify-content: space-around; padding-top: 40px ;}
+.scuderia{position: relative;width: 45%; display: flex; background: rgb(233,233,233); margin-bottom: 30px ; border-radius: 5px;}
+.scuderia__foto{width: 55%; display: flex; align-items: center; }
+.scuderia__foto img{width: 100%; display: inline-block;}
+.scuderia__logo{width: 15%; position: absolute; left: 5%; bottom: 5%;}
+.scuderia__logo img{width: 100%;}
+.scuderia__info{width: 45%; text-align: center; display: flex; flex-wrap: wrap;align-items: center;color: rgb(23,28,33);padding: 10px 0;}
+.scuderia__info h1{font-size: 23px; width: 100%; }
+.scuderia__info p{margin: 0; width: 100%; font-size: 15px;}
+
+
+
+
+
+
+#DLT {border: 7px solid rgb(151,0,1) ;}
+#DLT .scuderia__foto{
+    border-right: 5px solid rgb(151,0,1) ;
+    background: rgb(151,0,1);
+    background: linear-gradient(0deg, rgba(151,0,10,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%); 
+}
+
+#APR {border: 7px solid rgb(0,143,60);}
+#APR .scuderia__foto{
+    border-right: 5px solid rgb(0,143,60) ;
+    background: rgb(0,143,60);
+    background: linear-gradient(0deg, rgb(0,143,60,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%); 
+}
+
+#MEY {border: 7px solid rgb(2,41,180);}
+#MEY .scuderia__foto{
+    border-right: 5px solid rgb(2,41,180) ;
+    background: rgb(2,41,180);
+    background: linear-gradient(0deg, rgba(2,41,180,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%); 
+}
+
+#RBK {border: 7px solid rgb(255,122,1);}
+#RBK .scuderia__foto{
+    border-right: 5px solid rgb(255,122,1) ;
+    background: rgb(255,122,1);
+    background: linear-gradient(0deg, rgba(255,122,1,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%); 
+}
+
+#LCR {border: 7px solid rgb(38,122,67);}
+#LCR .scuderia__foto{
+    border-right: 5px solid rgb(38,122,67);
+    background: rgb(38,122,67);
+    background: linear-gradient(0deg, rgba(38,122,67,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%); 
+}
+
+#GRM {border: 7px solid rgb(137,163,212);}
+#GRM .scuderia__foto{
+    border-right: 5px solid rgb(137,163,212);
+    background: rgb(137,163,212);
+    background: linear-gradient(0deg, rgba(137,163,212,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%); 
+}
+
+
+#PPR {border: 7px solid rgb(3,56,170);}
+#PPR .scuderia__foto{
+    border-right: 5px solid rgb(3,56,170);
+    background: rgb(3,56,170);
+    background: linear-gradient(0deg, rgba(3,56,170,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%); 
+}
+
+#RHT {border: 7px solid rgb(255,151,1)}
+#RHT .scuderia__foto{
+    border-right: 5px solid rgb(255,151,1);
+    background: rgb(255,151,1);
+    background: linear-gradient(0deg, rgba(255,151,1,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%); 
+}
+
+
+#MVR {border: 7px solid rgb(114,112,115)}
+#MVR .scuderia__foto{
+    border-right: 5px solid rgb(114,112,115);
+    background: rgb(114,112,115);
+    background: linear-gradient(0deg, rgba(114,112,115,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%); 
+}
+
+
+#RNF {border: 7px solid rgb(216,206,61)}
+#RNF .scuderia__foto{
+    border-right: 5px solid rgb(216,206,61);
+    background: rgb(216,206,61);
+    background: linear-gradient(0deg, rgba(216,206,61,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%); 
+}
+
+
+
+
+
 /*STYLE PILOTI*/
 
 .button a {color: white;}
@@ -316,7 +411,7 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
 .pilota__bandiera{margin: 0 auto;width: 55%; height: 50%; text-align: center;}
 .pilota__bandiera img{width: 100%; display: inline-block; }
 
-.pilota__info{width: 55%; padding: 10px; text-align: center; color: rgb(23,28,33);}
+.pilota__info{width: 55%; padding: 10px; text-align: center; align-items: center;color: rgb(23,28,33);}
 
 
 
@@ -755,7 +850,7 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
 
 
 
-/*MEDIA QUERY*/
+/*MEDIA QUERIES*/
 
 @media(max-width :1100px){
 
@@ -768,7 +863,19 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
         padding: 0;
     }
 
-    .pilota{width:30%}
+    .scuderia{width: 30%;}
+    .scuderia__foto{width: 100%}
+    .scuderia__logo{width:20%;}
+
+    .scuderia__info{position: absolute; top :0; width: 100%; padding: 0}
+    .scuderia__info p{display: none;}
+    .scuderia:hover .scuderia__info{ background :rgb(233,233,233); height: 100%; animation: animation-dropdown 0.3s ease-in-out;}
+    .scuderia:hover .scuderia__info p{display: block; border-bottom: 2px solid black;}
+    .scuderia:hover .scuderia__info h1{display: none;}
+
+
+
+    .pilota{width:30%;}
     .pilota__foto {overflow: hidden; width: 100%; height: auto; }
     .RHT-gp .pilota__foto, .DLT-gp .pilota__foto, .MEY-gp .pilota__foto, .RBK-gp .pilota__foto, .APR-gp .pilota__foto, .PPR-gp .pilota__foto, .GAS-gp .pilota__foto,  .LCR-gp .pilota__foto,  .MVR-gp .pilota__foto, .GRM-gp .pilota__foto, .RNF-gp .pilota__foto{border: 0px;}
     .pilota__foto img{ transform: scale(2) translateY(30%); }
@@ -813,6 +920,11 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
     .indice__down{width: 100%;}
 
     
+    .scuderia{width: 40%;}
+    .scuderia h1{font-size: 25px;}
+    
+
+
     .pilota h1{font-size: 28px;}
     .pilota:hover .pilota__info{padding-top: 3px;padding-bottom: 15px;}
     .pilota p{font-size: 18px;}
@@ -830,9 +942,18 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
     .indice a{width: 30%;}
 
 
+
+
+
     .piloti-categorie {width: auto;  margin: 0 auto; right: 12%; left: 12%; top:20px;}
     .categoria{width:35%; margin: 0 auto; left:12%}
     .anno{width: 35%; right: 12%; left:auto}
+
+
+    .scuderia{width: 90%;}
+    .scuderia__info h1{font-size: 35px;}
+    .scuderia__info p{font-size: 25px;}
+
 
     .pilota{align-items: end; padding: 0; width:90%; height: auto;}
     .pilota__foto{width: 100%;height: 100%;}
@@ -840,8 +961,8 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
     
     .pilota__num-img{width: 30%;}
     
-    .pilota__info h1{font-size: 39px; padding-bottom: 10px;}
-    .pilota__info p{font-size: 30px;}
+    .pilota__info h1{font-size: 35px; padding-bottom: 10px;}
+    .pilota__info p{font-size: 25px;}
     #giannantonio .pilota__info h1{font-size: 30px;}
     .is-open-3{display: block;}
     
