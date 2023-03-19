@@ -150,16 +150,11 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 
 .pilota__info{width: 55%; padding: 10px; text-align: center; color: rgb(23,28,33);}
 
-<<<<<<< HEAD
-.RHT{border: 10px solid rgb(226,78,35)}
-.RHT .pilota__foto{
-=======
 
 
 
 .RHT-gp{border: 10px solid rgb(226,78,35)}
 .RHT-gp .pilota__foto{
->>>>>>> f7432bc5f2a13acfadcf16b8771d1a47676f8b7b
     border-right: 5px solid rgb(226,78,35); 
     background: rgb(226,78,35);
     background: linear-gradient(0deg, rgba(226,78,35,0.8548669467787114) 45%, rgba(255,255,255,0.3114495798319328) 100%);
@@ -242,10 +237,6 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> f7432bc5f2a13acfadcf16b8771d1a47676f8b7b
 /*STYLE RISULTATI*/
 
 #contenitore-main{  
