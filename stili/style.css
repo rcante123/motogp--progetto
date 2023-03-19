@@ -150,81 +150,89 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 
 .pilota__info{width: 55%; padding: 10px; text-align: center; color: rgb(23,28,33);}
 
+<<<<<<< HEAD
 .RHT{border: 10px solid rgb(226,78,35)}
 .RHT .pilota__foto{
+=======
+
+
+
+.RHT-gp{border: 10px solid rgb(226,78,35)}
+.RHT-gp .pilota__foto{
+>>>>>>> f7432bc5f2a13acfadcf16b8771d1a47676f8b7b
     border-right: 5px solid rgb(226,78,35); 
     background: rgb(226,78,35);
     background: linear-gradient(0deg, rgba(226,78,35,0.8548669467787114) 45%, rgba(255,255,255,0.3114495798319328) 100%);
 }
 
-.DLT{border: 10px solid rgb(129,10,22)}
-.DLT .pilota__foto{
+.DLT-gp{border: 10px solid rgb(129,10,22)}
+.DLT-gp .pilota__foto{
     border-right: 5px solid rgb(129,10,22);
     background: rgb(129,10,22);
     background: linear-gradient(0deg, rgba(129,10,22,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%);
 
 }
 
-.MEY{border: 10px solid rgb(0,20,81)}
-.MEY .pilota__foto{
+.MEY-gp{border: 10px solid rgb(0,20,81)}
+.MEY-gp .pilota__foto{
     border-right: 5px solid rgb(0,20,81);
     background: rgb(0,20,81);
     background: linear-gradient(0deg, rgba(0,20,81,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%);
 }
 
-.RBK{border: 10px solid rgb(254,88,62)}
-.RBK .pilota__foto{
+.RBK-gp{border: 10px solid rgb(254,88,62)}
+.RBK-gp .pilota__foto{
     border-right: 5px solid rgb(254,88,62);
     background: rgb(254,88,62);
     background: linear-gradient(0deg, rgba(254,88,62,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%);
 }
 
-.APR{border: 10px solid rgb(196,36,35)}
-.APR .pilota__foto{
+.APR-gp{border: 10px solid rgb(196,36,35)}
+.APR-gp .pilota__foto{
     border-right: 5px solid rgb(196,36,35);
     background: rgb(196,36,35);
     background: linear-gradient(0deg, rgba(196,36,35,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%);
 
 }
 
-.PPR{border: 10px solid rgb(86,55,130)}
-.PPR .pilota__foto{
+.PPR-gp{border: 10px solid rgb(86,55,130)}
+.PPR-gp .pilota__foto{
     border-right: 5px solid rgb(86,55,130);
     background: rgb(86,55,130);
     background: linear-gradient(0deg, rgba(86,55,130,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%);
 }
 
-.GAS{border: 10px solid rgb(128,5,18)}
-.GAS .pilota__foto{
+.GAS-gp{border: 10px solid rgb(128,5,18)}
+.GAS-gp .pilota__foto{
     border-right: 5px solid rgb(128,5,18);
     background: rgb(128,5,18);
     background: linear-gradient(0deg, rgba(128,5,18,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%);
 }
 
-.LCR{border: 10px solid rgb(1,49,120)}
-.LCR .pilota__foto{
+.LCR-gp{border: 10px solid rgb(1,49,120)}
+.LCR-gp .pilota__foto{
     border-right: 5px solid rgb(1,49,120);
     background: rgb(1,49,120);
     background: linear-gradient(0deg, rgba(1,49,120,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%);
 
 }
 
-.MVR{border: 10px solid rgb(222,161,12)}
-.MVR .pilota__foto{
+.MVR-gp{border: 10px solid rgb(222,161,12)}
+.MVR-gp .pilota__foto{
     border-right: 5px solid rgb(223,234,);
     background: rgb(223,161,12);
     background: linear-gradient(0deg, rgba(223,161,12,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%);
 }
 
-.GRM{border: 10px solid rgb(131,151,191)}
-.GRM .pilota__foto{
+.GRM-gp{border: 10px solid rgb(131,151,191)}
+.GRM-gp .pilota__foto{
     border-right: 5px solid rgb(131,151,191);
     background: rgb(131,151,191);
     background: linear-gradient(0deg, rgba(131,151,191,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%);
 }
 
-.RNF{border: 10px solid rgb(112,112,110)}
-.RNF .pilota__foto{
+.RNF-gp{border: 10px solid rgb(112,112,110)}
+.RNF-gp .pilota__foto{
     border-right: 5px solid rgb(112,112,110);
     background: rgb(112,112,110);
     background: linear-gradient(0deg, rgba(112,112,110,0.85) 45%, rgba(255,255,255,0.3114495798319328) 100%); 
@@ -234,6 +242,10 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f7432bc5f2a13acfadcf16b8771d1a47676f8b7b
 /*STYLE RISULTATI*/
 
 #contenitore-main{  
@@ -322,7 +334,7 @@ td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: c
 
     .pilota{width:30%}
     .pilota__foto {overflow: hidden; width: 100%; height: auto; }
-    .RHT .pilota__foto, .DLT .pilota__foto, .MEY .pilota__foto, .RBK .pilota__foto, .APR .pilota__foto, .PPR .pilota__foto, .GAS .pilota__foto,  .LCR .pilota__foto,  .MVR .pilota__foto, .GRM .pilota__foto, .RNF .pilota__foto{border: 0px;}
+    .RHT-gp .pilota__foto, .DLT-gp .pilota__foto, .MEY-gp .pilota__foto, .RBK-gp .pilota__foto, .APR-gp .pilota__foto, .PPR-gp .pilota__foto, .GAS-gp .pilota__foto,  .LCR-gp .pilota__foto,  .MVR-gp .pilota__foto, .GRM-gp .pilota__foto, .RNF-gp .pilota__foto{border: 0px;}
     .pilota__foto img{ transform: scale(2) translateY(30%); }
     .pilota__num-img{width: 35%; left: 10px; bottom: 20px;}
 
@@ -361,8 +373,8 @@ td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: c
     .contenitore-main h1{font-size: 50px;}
     .contenitore-titolo{height: 245px; } 
     .contenitore-titolo__sfondo img{height: 240px;}  
-
-    .indice__down__{width: 100%;}
+    .indice a{width: 28%;}
+    .indice__down{width: 100%;}
 
     
     .pilota h1{font-size: 28px;}
@@ -374,11 +386,11 @@ td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: c
     
 }
 
-@media(max-width:660px){
+@media(max-width:560px){
 
     .contenitore-main{width: 95%;}
 
-    .indice{width: 100%;}
+    .indice{width: 100%; padding-left: 0px; padding-right:0px ;}
     .indice a{width: 30%;}
 
 
