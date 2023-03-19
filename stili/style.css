@@ -92,8 +92,10 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 
 .contenitore-main h1{font-size: 60px; font-family: 'MOTOGP Bold'; margin: 0;}
 .contenitore-main p{font-family: 'MOTOGP Regular';}
+.contenitore-main h2{text-decoration: underline;}
 
 
+/*STYLE HOME*/
 
 /*TITOLO*/
 
@@ -123,10 +125,54 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 .indice__down__content{width: 100%; text-align: center; background:  rgb(184, 6, 35) ; border-radius: 5px; border: 1px solid white; font-family: 'MOTOGP Regular'; transition: all 0.2s ease-in-out;}
 .indice__down__content:hover {background: rgb(238, 48, 48); transform: scale(1.05);}
 
-
-
+.testi-home{width: 100%; height: auto; padding: 15px;}
 
 /*STYLE RISULTATI*/
+
+#contenitore-main{  
+    position :relative;
+    z-index: 0;
+    display: flex;  
+    flex-wrap: wrap;
+    background: white; 
+    width: 97%; 
+    margin: 0 auto; 
+    border-left:  4px solid black; 
+    border-right:  4px solid black;   
+}
+
+.tabella-ris{width: 100%; margin: 0 auto; width: 100%;}
+
+.tabella-ris table{width: 100%; padding: 5px;}
+
+.tabella-ris tr,
+th,
+td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: collapse;}
+
+#tabella__prima-riga{font-family: 'MOTOGP Display-Bold'; font-size: 19px;}
+.tabella-ris tr{height: 25px; font-family: 'MOTOGP Regular';}
+
+.tabella__cella-pilota{width: 15%;}
+.tabella__cella-pos{width: 3%;}
+.tabella__cella-pti{width: 4%;}
+.tabella__cella-circuiti{width: auto;}
+
+.tabella__cella-circuiti img{height: auto; width: 90%;}
+
+
+
+/*SYLE CIRCUITI*/  
+
+.contenitore-circuiti{width: 100%; height: 100%; background-color: white; padding-top: 20px;}
+
+.tracciato{width: 90%; height: auto; text-align: center; display: flex; align-items: center; margin: 0 auto; margin-bottom: 20px; border-radius: 5px; border: 5px solid black;}
+.tracciato h1{font-size: 30px; width: 100%;}
+.tracciato p{width: 100%; font-size: 20px; margin: 0;}
+.tracciato__img-tracciato{width: 55%; height: 100%; text-align: center; padding: 10px; border-right: 5px solid black;}
+.tracciato__img-tracciato img{width: 100%; height: auto; display: block;}
+.tracciato__info-tracciato{width: 45%; height: 100%; display: flex; flex-wrap: wrap; text-align: center; padding: 10px;}
+
+
 /*STYLE RISULTATI*/
 
 #contenitore-main{  
@@ -142,8 +188,6 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 }
 
 .anno{left: 200px;}
-.anno__content-down{display:none; border-top: 1px solid white ;}
-.is-open-5{display: block;  animation: animation-dropdown 0.4s ease-in-out;}
 
 .tabella-ris{width: 100%; margin: 0 auto; width: 100%; margin-top: 150px;}
 
@@ -163,23 +207,10 @@ td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: c
 
 .tabella__cella-circuiti img{height: auto; width: 90%;}
 
+
+
+
 .contenitore-circuiti{width: 100%; height: 100%; padding-top: 20px;}
-
-
-
-/*SYLE CIRCUITI*/  
-
-.contenitore-circuiti{width: 100%; height: 100%; background-color: white; padding-top: 20px;}
-
-.tracciato{width: 90%; height: auto; text-align: center; display: flex; align-items: center; margin: 0 auto; margin-bottom: 20px; border-radius: 5px; border: 5px solid black;}
-.tracciato h1{font-size: 30px; width: 100%;}
-.tracciato p{width: 100%; font-size: 20px; margin: 0;}
-.tracciato__img-tracciato{width: 55%; height: 100%; text-align: center; padding: 10px; border-right: 5px solid black;}
-.tracciato__img-tracciato img{width: 100%; height: auto; display: block;}
-.tracciato__info-tracciato{width: 45%; height: 100%; display: flex; flex-wrap: wrap; text-align: center; padding: 10px;}
-
-
-
 
 .tracciato{
     width: 90%; 
@@ -240,7 +271,6 @@ td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: c
     justify-content: center; 
     border: 10px solid white; 
     border-radius: 5px;
-    overflow: auto;
 }
 
 .tabella-ris table{width: 100%; padding: 5px; display: inline-block;}
@@ -291,13 +321,13 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
 }
 
 
+
 /*STYLE PILOTI*/
 
 .button a {color: white;}
-.button {z-index: 1;background-color: rgb(184, 6, 35); width: 150px; height: auto; border-radius: 5px; border: 2px solid white;position:absolute; top:20px;  }
-.categoria, .piloti-categorie{left:20px}
+.button {z-index: 1;background-color: rgb(184, 6, 35); width: 150px; height: auto; border-radius: 5px; border: 2px solid white;position:absolute;left: 20px; top:20px;  }
 .button__content { text-align: center;line-height: 30px;height: 40px; width: 100%; text-align: center; font-size: 18px; font-family: 'MOTOGP Italic'; padding: 5px;}
-.categoria__content-down {display: none; border-top: 1px solid white ;}
+.button__content-down{display: none; border-top: 1px solid white ;}
 .is-open-2{display: block; animation: animation-dropdown 0.4s ease-in-out;}
 
 
@@ -829,10 +859,7 @@ td{border: 1px solid white; padding: 2px; text-align: center; border-collapse: c
     .indice a{width: 30%;}
 
 
-    .piloti-categorie {width: auto;  margin: 0 auto; right: 12%; left: 12%; top:20px;}
-    .categoria{width:35%; margin: 0 auto; left:12%}
-    .anno{width: 35%; right: 12%; left:auto}
-
+    .button{width: auto;  margin: 0 auto; right: 12%; left: 12%; top:20px;}
     .pilota{align-items: end; padding: 0; width:90%; height: auto;}
     .pilota__foto{width: 100%;height: 100%;}
    
