@@ -92,7 +92,7 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 
 .contenitore-main h1{font-size: 60px; font-family: 'MOTOGP Bold'; margin: 0;}
 .contenitore-main p{font-family: 'MOTOGP Regular';}
-
+.contenitore-main h2{text-decoration: underline;}
 
 
 /*TITOLO*/
@@ -123,10 +123,10 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 .indice__down__content{width: 100%; text-align: center; background:  rgb(184, 6, 35) ; border-radius: 5px; border: 1px solid white; font-family: 'MOTOGP Regular'; transition: all 0.2s ease-in-out;}
 .indice__down__content:hover {background: rgb(238, 48, 48); transform: scale(1.05);}
 
+.testi-home{width: 100%; height: auto; padding: 15px;}
 
 
 
-/*STYLE RISULTATI*/
 /*STYLE RISULTATI*/
 
 #contenitore-main{  
