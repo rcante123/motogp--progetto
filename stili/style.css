@@ -123,6 +123,53 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 
 
 
+
+/*STYLE RISULTATI*/
+
+#contenitore-main{  
+    position :relative;
+    z-index: 0;
+    display: flex;  
+    flex-wrap: wrap;
+    background: white; 
+    width: 97%; 
+    margin: 0 auto; 
+    border-left:  4px solid black; 
+    border-right:  4px solid black;   
+}
+
+.tabella-ris{width: 100%; margin: 0 auto; width: 100%;}
+
+.tabella-ris table{width: 100%; padding: 5px;}
+
+.tabella-ris tr,
+th,
+td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: collapse;}
+
+#tabella__prima-riga{font-family: 'MOTOGP Display-Bold'; font-size: 19px;}
+.tabella-ris tr{height: 25px; font-family: 'MOTOGP Regular';}
+
+.tabella__cella-pilota{width: 15%;}
+.tabella__cella-pos{width: 3%;}
+.tabella__cella-pti{width: 4%;}
+.tabella__cella-circuiti{width: auto;}
+
+.tabella__cella-circuiti img{height: auto; width: 90%;}
+
+
+
+/*SYLE CIRCUITI*/  
+
+.contenitore-circuiti{width: 100%; height: 100%; background-color: white; padding-top: 20px;}
+
+.tracciato{width: 90%; height: auto; text-align: center; display: flex; align-items: center; margin: 0 auto; margin-bottom: 20px; border-radius: 5px; border: 5px solid black;}
+.tracciato h1{font-size: 30px; width: 100%;}
+.tracciato p{width: 100%; font-size: 20px; margin: 0;}
+.tracciato__img-tracciato{width: 55%; height: 100%; text-align: center; padding: 10px; border-right: 5px solid black;}
+.tracciato__img-tracciato img{width: 100%; height: auto; display: block;}
+.tracciato__info-tracciato{width: 45%; height: 100%; display: flex; flex-wrap: wrap; text-align: center; padding: 10px;}
+
+
 /*STYLE PILOTI*/
 
 .button a {color: white;}
@@ -149,7 +196,7 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 .pilota__info{width: 55%; padding: 10px; text-align: center; color: rgb(23,28,33);}
 
 
-
+/*PILOTI MOTOGP*/
 
 .RHT-gp{border: 10px solid rgb(226,78,35)}
 .RHT-gp .pilota__foto{
@@ -232,56 +279,354 @@ h1, h2{margin: 0; font-family: 'MOTOGP Bold';}
 }
 
 
+/*PILOTI MOTO2*/
 
 
-
-
-/*STYLE RISULTATI*/
-
-#contenitore-main{  
-    position :relative;
-    z-index: 0;
-    display: flex;  
-    flex-wrap: wrap;
-    background: white; 
-    width: 97%; 
-    margin: 0 auto; 
-    border-left:  4px solid black; 
-    border-right:  4px solid black;   
+.CAA-2{border: 10px solid rgb(22,42,158)}
+.CAA-2 .pilota__foto{
+    border-right: 5px solid rgb(22,42,158);
+    background: rgb(22,42,158);
+    background: linear-gradient(0deg, rgba(22,42,158,0.85) 45%, rgba(255,255,255,0.01) 100%);
 }
 
-.tabella-ris{width: 100%; margin: 0 auto; width: 100%;}
-
-.tabella-ris table{width: 100%; padding: 5px;}
-
-.tabella-ris tr,
-th,
-td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: collapse;}
-
-#tabella__prima-riga{font-family: 'MOTOGP Display-Bold'; font-size: 19px;}
-.tabella-ris tr{height: 25px; font-family: 'MOTOGP Regular';}
-
-.tabella__cella-pilota{width: 15%;}
-.tabella__cella-pos{width: 3%;}
-.tabella__cella-pti{width: 4%;}
-.tabella__cella-circuiti{width: auto;}
-
-.tabella__cella-circuiti img{height: auto; width: 90%;}
+.VDS-2{border: 10px solid rgb(100,43,50)}
+.VDS-2 .pilota__foto{
+    border-right: 5px solid rgb(100,43,50);
+    background: rgb(100,43,50);
+    background: linear-gradient(0deg, rgba(100,43,50,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
 
 
 
-/*SYLE CIRCUITI*/  
 
-.contenitore-circuiti{width: 100%; height: 100%; background-color: white; padding-top: 20px;}
+.CAG-2{border: 10px solid rgb(241,124,53)}
+.CAG-2 .pilota__foto{
+    border-right: 5px solid rgb(241,124,53);
+    background: rgb(241,124,53);
+    background: linear-gradient(0deg, rgba(241,124,53,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
 
-.tracciato{width: 90%; height: auto; text-align: center; display: flex; align-items: center; margin: 0 auto; margin-bottom: 20px; border-radius: 5px; border: 5px solid black;}
-.tracciato h1{font-size: 30px; width: 100%;}
-.tracciato p{width: 100%; font-size: 20px; margin: 0;}
-.tracciato__img-tracciato{width: 55%; height: 100%; text-align: center; padding: 10px; border-right: 5px solid black;}
-.tracciato__img-tracciato img{width: 100%; height: auto; display: block;}
-.tracciato__info-tracciato{width: 45%; height: 100%; display: flex; flex-wrap: wrap; text-align: center; padding: 10px;}
+.FOR-2{border: 10px solid rgb(21,52,85)}
+.FOR-2 .pilota__foto{
+    border-right: 5px solid rgb(21,52,85);
+    background: rgb(21,52,85);
+    background: linear-gradient(0deg, rgba(21,52,85,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
 
 
+.GAS-2{border: 10px solid rgb(157,28,34)}
+.GAS-2 .pilota__foto{
+    border-right: 5px solid rgb(157,28,34);
+    background: rgb(157,28,34);
+    background: linear-gradient(0deg, rgba(157,28,34,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+
+.HTA-2{border: 10px solid rgb(236,51,62)}
+.HTA-2 .pilota__foto{
+    border-right: 5px solid rgb(236,51,62);
+    background: rgb(236,51,62);
+    background: linear-gradient(0deg, rgba(236,51,62,0.85) 45%, rgba(255,255,255,0.01) 100%);  
+}
+
+
+#vietti{border: 10px solid rgb(239,181,5)}
+#vietti .pilota__foto{
+    border-right: 5px solid rgb(239,181,5);
+    background: rgb(239,181,5);
+    background: linear-gradient(0deg, rgba(239,181,5,0.85) 45%, rgba(255,255,255,0.01) 100%); 
+}
+
+#gomez{border: 10px solid rgb(45,80,161)}
+#gomez .pilota__foto{
+    border-right: 5px solid rgb(45,80,161);
+    background: rgb(45,80,161);
+    background: linear-gradient(0deg, rgba(45,80,161,0.85) 45%, rgba(255,255,255,0.01) 100%); 
+}
+
+
+#escrig{border: 10px solid rgb(139,180,85)}
+#escrig .pilota__foto{
+    border-right: 5px solid rgb(139,180,85);
+    background: rgb(139,180,85);
+    background: linear-gradient(0deg, rgba(139,180,85,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+
+#ramirez{border: 10px solid rgb(0,51,133)}
+#ramirez .pilota__foto{
+    border-right: 5px solid rgb(0,51,133);
+    background: rgb(0,51,133);
+    background: linear-gradient(0deg, rgba(0,51,133,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#roberts{border: 10px solid rgb(11,131,195)}
+#roberts .pilota__foto{
+    border-right: 5px solid rgb(11,131,195);
+    background: rgb(11,131,195);
+    background: linear-gradient(0deg, rgba(11,131,195,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#foggia{border: 10px solid rgb(147,199,193)}
+#foggia .pilota__foto{
+    border-right: 5px solid rgb(147,199,193);
+    background: rgb(147,199,193);
+    background: linear-gradient(0deg, rgba(147,199,193,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#tulovic{border: 10px solid rgb(121,35,33)}
+#tulovic .pilota__foto{
+    border-right: 5px solid rgb(121,35,33);
+    background: rgb(121,35,33);
+    background: linear-gradient(0deg, rgba(121,35,33,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#binder{border: 10px solid rgb(185,109,46)}
+#binder .pilota__foto{
+    border-right: 5px solid rgb(185,109,46);
+    background: rgb(185,109,46);
+    background: linear-gradient(0deg, rgba(185,109,46,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+
+#porta{border: 10px solid rgb(234,235,30)}
+#porta .pilota__foto{
+    border-right: 5px solid rgb(234,235,30);
+    background: rgb(234,235,30);
+    background: linear-gradient(0deg, rgba(234,235,30,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+
+#bendsneyder{border: 10px solid rgb(43,99,160)}
+#bendsneyder .pilota__foto{
+    border-right: 5px solid rgb(43,99,160);
+    background: rgb(43,99,160);
+    background: linear-gradient(0deg, rgba(43,99,160,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+
+
+#garcia{border: 10px solid rgb(191,53,53)}
+#garcia .pilota__foto{
+    border-right: 5px solid rgb(191,53,53);
+    background: rgb(191,53,53);
+    background: linear-gradient(0deg, rgba(191,53,53,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+
+#canet{border: 10px solid rgb(250,140,60)}
+#canet .pilota__foto{
+    border-right: 5px solid rgb(250,140,60);
+    background: rgb(250,140,60);
+    background: linear-gradient(0deg, rgba(250,140,60,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+
+#salac{border: 10px solid rgb(115,141,169)}
+#salac .pilota__foto{
+    border-right: 5px solid rgb(115,141,169);
+    background: rgb(115,141,169);
+    background: linear-gradient(0deg, rgba(115,141,169,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#alcoba{border: 10px solid rgb(170,170,169)}
+#alcoba .pilota__foto{
+    border-right: 5px solid rgb(170,170,169);
+    background: rgb(170,170,169);
+    background: linear-gradient(0deg, rgba(170,170,169,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#nozane{border: 10px solid black}
+#nozane .pilota__foto{
+    border-right: 5px solid black;
+    background: rgb(170,170,169);
+    background: linear-gradient(0deg, rgba(170,170,169,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+
+#gonzalez{border: 10px solid rgb(0,49,132)}
+#gonzalez .pilota__foto{
+    border-right: 5px solid rgb(0,49,132);
+    background: rgb(0,49,132);
+    background: linear-gradient(0deg, rgba(0,49,132,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#acosta{border: 10px solid rgb(254,143,55)}
+#acosta .pilota__foto{
+    border-right: 5px solid rgb(254,143,55);
+    background: rgb(254,143,55);
+    background: linear-gradient(0deg, rgba(254,143,55,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#arenas{border: 10px solid rgb(206,32,40)}
+#arenas .pilota__foto{
+    border-right: 5px solid rgb(206,32,40);
+    background: rgb(206,32,40);
+    background: linear-gradient(0deg, rgba(206,32,40,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+
+/*PILOTI MOTO3*/
+
+
+.MTA-3{border: 10px solid rgb(171,28,39)}
+.MTA-3 .pilota__foto{
+    border-right: 5px solid rgb(171,28,39);
+    background: rgb(171,28,39);
+    background: linear-gradient(0deg, rgba(171,28,39,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+
+.MTA-3{border: 10px solid rgb(171,28,39)}
+.MTA-3 .pilota__foto{
+    border-right: 5px solid rgb(171,28,39);
+    background: rgb(171,28,39);
+    background: linear-gradient(0deg, rgba(171,28,39,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+
+.VRT-3{border: 10px solid rgb(64,113,168)}
+.VRT-3 .pilota__foto{
+    border-right: 5px solid rgb(64,113,168);
+    background: rgb(64,113,168);
+    background: linear-gradient(0deg, rgba(64,113,168,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+.BOE-3{border: 10px solid rgb(247,87,137)}
+.BOE-3 .pilota__foto{
+    border-right: 5px solid rgb(247,87,137);
+    background: rgb(247,87,137);
+    background: linear-gradient(0deg, rgba(247,87,137,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+.HTA-3{border: 10px solid rgb(242,63,63)}
+.HTA-3 .pilota__foto{
+    border-right: 5px solid rgb(242,63,63);
+    background: rgb(242,63,63);
+    background: linear-gradient(0deg, rgba(242,63,63,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+.MTH-3{border: 10px solid rgb(10,166,204)}
+.MTH-3 .pilota__foto{
+    border-right: 5px solid rgb(10,166,204);
+    background: rgb(10,166,204);
+    background: linear-gradient(0deg, rgba(10,166,204,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+
+#fellon{border: 10px solid rgb(133,8,27)}
+#fellon .pilota__foto{
+    border-right: 5px solid rgb(133,8,27);
+    background: rgb(133,8,27);
+    background: linear-gradient(0deg, rgba(133,8,27,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#salvador{border: 10px solid rgb(216,234,1)}
+#salvador .pilota__foto{
+    border-right: 5px solid rgb(216,234,1);
+    background: rgb(216,234,1);
+    background: linear-gradient(0deg, rgba(216,234,1, 0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#yamanaka{border: 10px solid rgb(53,90,129)}
+#yamanaka .pilota__foto{
+    border-right: 5px solid rgb(53,90,129);
+    background: rgb(53,90,129);
+    background: linear-gradient(0deg, rgba(53,90,129, 0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#alonso{border: 10px solid rgb(204,21,27)}
+#alonso .pilota__foto{
+    border-right: 5px solid rgb(204,21,27);
+    background: rgb(204,21,27);
+    background: linear-gradient(0deg, rgba(204,21,27,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#masia{border: 10px solid rgb(227,134,67)}
+#masia .pilota__foto{
+    border-right: 5px solid rgb(227,134,67);
+    background: rgb(227,134,67);
+    background: linear-gradient(0deg, rgba(227,134,67,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#suzuki{border: 10px solid rgb(122,174,169)}
+#suzuki .pilota__foto{
+    border-right: 5px solid rgb(122,174,169);
+    background: rgb(122,174,169);
+    background: linear-gradient(0deg, rgba(122,174,169,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#sasaki{border: 10px solid rgb(219,77,59)}
+#sasaki .pilota__foto{
+    border-right: 5px solid rgb(219,77,59);
+    background: rgb(219,77,59);
+    background: linear-gradient(0deg, rgba(219,77,59,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#veijer{border: 10px solid black}
+#veijer .pilota__foto{
+    border-right: 5px solid black;
+    background: rgb(170,170,169);
+    background: linear-gradient(0deg, rgba(170,170,169,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+
+#oncu{border: 10px solid rgb(217,99,46)}
+#oncu .pilota__foto{
+    border-right: 5px solid rgb(217,99,46);
+    background: rgb(217,99,46);
+    background: linear-gradient(0deg, rgba(217,99,46,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#rueda{border: 10px solid rgb(11,119,207)}
+#rueda .pilota__foto{
+    border-right: 5px solid rgb(11,119,207);
+    background: rgb(11,119,207);
+    background: linear-gradient(0deg, rgba(11,119,207,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#farioli{border: 10px solid rgb(240,45,57)}
+#farioli .pilota__foto{
+    border-right: 5px solid rgb(240,45,57);
+    background: rgb(240,45,57);
+    background: linear-gradient(0deg, rgba(240,45,57,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#holgado{border: 10px solid rgb(197,98,43)}
+#holgado .pilota__foto{
+    border-right: 5px solid rgb(197,98,43);
+    background: rgb(197,98,43);
+    background: linear-gradient(0deg, rgba(197,98,43,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#bertelle{border: 10px solid rgb(141,14,30)}
+#bertelle .pilota__foto{
+    border-right: 5px solid rgb(141,14,30);
+    background: rgb(141,14,30);
+    background: linear-gradient(0deg, rgba(141,14,30, 0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+
+#fenati{border: 10px solid rgb(40,167,177)}
+#fenati .pilota__foto{
+    border-right: 5px solid rgb(40,167,177);
+    background: rgb(40,167,177);
+    background: linear-gradient(0deg, rgba(40,167,177,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#toba{border: 10px solid rgb(123,212,62)}
+#toba .pilota__foto{
+    border-right: 5px solid rgb(123,212,62);
+    background: rgb(123,212,62);
+    background: linear-gradient(0deg, rgba(123,212,62,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
+
+#rossi{border: 10px solid rgb(196,31,34)}
+#rossi .pilota__foto{
+    border-right: 5px solid rgb(196,31,34);
+    background: rgb(196,31,34);
+    background: linear-gradient(0deg, rgba(196,31,34,0.85) 45%, rgba(255,255,255,0.01) 100%);
+}
 
 /*FOOTER*/
 
@@ -356,7 +701,7 @@ td{border: 1px solid black; padding: 2px; text-align: center; border-collapse: c
     
 }
 
-@media(max-width:560px){
+@media(max-width:590px){
 
     .contenitore-main{width: 95%;}
 
