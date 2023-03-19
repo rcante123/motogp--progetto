@@ -21,17 +21,17 @@
         <div class="button categoria">
                
             <a href="">
-                <div class="button__content button__content-up">Moto2</div >
+                <div class="button__content categoria__content-up">Moto2</div >
             </a>
 
         
             <a href="Risultati_Moto3_22.html">
-                <div class="button__content button__content-down" >Moto3</div>
+                <div class="button__content categoria__content-down" >Moto3</div>
             </a>
         
 
             <a href="Risultati_Motogp_22.html">
-                <div class="button__content button__content-down">Motogp</div>
+                <div class="button__content categoria__content-down">Motogp</div>
              </a>
 
         </div>
@@ -39,12 +39,12 @@
         <div class="button anno">
            
             <a href="">
-                <div class="button__content button__content-up">2022</div >
+                <div class="button__content anno__content-up">2022</div >
             </a>
 
         
             <a href="Risultati_Moto2.html">
-                <div class="button__content button__content-down" >2023</div>
+                <div class="button__content anno__content-down" >2023</div>
             </a>
 
         </div>
@@ -863,21 +863,7 @@
 
     <script src="../../js/Script_Footer_Pagine.js"></script>
     
-    <script>
-        $(document).ready(function(){
-
-            $(".button__content-up").click(function(e){
-
-                $(".button__content-down").toggleClass('is-open-2');
-                
-                
-
-                e.preventDefault();
-
-            });
-
-        });
-    </script>
+    <script src="../../js/Script_Jquery_Button_Risultati.js"></script>
     
 </body>
 </html>
