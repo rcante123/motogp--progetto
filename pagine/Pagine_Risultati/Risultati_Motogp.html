@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Risultati MotoGp</title>
+    <title>Risultati MotoGp 2023</title>
     
     <link rel="stylesheet" href="../../stili/style.css">
     <link rel="icon" type="img/png" href="../../immagini/motogp_cmyk_tm.svg">
@@ -17,6 +17,37 @@
     <script src="../../js/Script_JQuery.js"></script>
 
     <main id="contenitore-main">
+
+        <div class="button categoria">
+               
+            <a href="">
+                <div class="button__content button__content-up">Motogp</div >
+            </a>
+
+        
+            <a href="Risultati_Moto2.html">
+                <div class="button__content button__content-down" >Moto2</div>
+            </a>
+        
+
+            <a href="Risultati_Moto3.html">
+                <div class="button__content button__content-down">Moto3</div>
+             </a>
+
+        </div>
+
+        <div class="button anno">
+           
+            <a href="">
+                <div class="button__content button__content-up">2023</div >
+            </a>
+
+        
+            <a href="Risultati_Motogp_22.html">
+                <div class="button__content button__content-down" >2022</div>
+            </a>
+
+        </div>
 
         <div class="tabella-ris">
             <table cellpadding="0" cellspacing="0">
@@ -648,6 +679,22 @@
     </main>
 
     <script src="../../js/Script_Footer_Pagine.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+
+            $(".button__content-up").click(function(e){
+
+                $(".button__content-down").toggleClass('is-open-2');
+                
+                
+
+                e.preventDefault();
+
+            });
+
+        });
+    </script>
     
 </body>
 </html>
