@@ -2,7 +2,7 @@ document.write(`
     <header class="header">
 
         <div class="logo" id="logo1">
-            <a href="../../index.html"> <img src="../../immagini/motogp_cmyk_tm.svg" alt="Logo"> </a>
+            <a href="../../index.html"> <img src="../../immagini/Immagini_Home/Loghi_Header/motogp_cmyk_tm.svg" alt="Logo"> </a>
         </div>
            
         <div class="nav">
@@ -53,7 +53,7 @@ document.write(`
         </div>
 
         <div class="logo" id="logo2"> 
-            <img src="../.././immagini/fimlogo.png" alt="Logo">
+            <img src="../.././immagini//Immagini_Home/Loghi_Header/fimlogo.png" alt="Logo">
         </div>
 
         <div class="icon-bar"><a href="">
